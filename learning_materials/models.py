@@ -76,10 +76,19 @@ class Material(models.Model):
     def __str__(self):
         return self.title
 
+# Проверьте в learning_materials/models.py, что поле image выглядит так:
+
 class MaterialImage(models.Model):
     """Images extracted from materials"""
     material = models.ForeignKey(Material, related_name='images', on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='material_images/')
+    
+    # Если поле image это ImageField, то нужно изменить на URLField или CharField
+    # Старое (если так):
+    # image = models.ImageField(upload_to='material_images/')
+    
+    # Новое (должно быть так для S3 URL):
+    image = models.URLField(max_length=500)  # или CharField(max_length=500)
+    
     caption = models.CharField(max_length=255, blank=True, default='')
     order = models.IntegerField(default=0)
 
