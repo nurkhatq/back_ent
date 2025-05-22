@@ -181,7 +181,7 @@ class DocxToHtmlConverter:
                     logger.error(f"Error extracting image {rel_id}: {str(e)}", exc_info=True)
 
     def _save_images_to_storage(self, material_id):
-        """Сохранение изображений в хранилище (S3 или локально)"""
+        """Сохранение изображений в хранилище"""
         saved_images = []
         for idx, img_info in enumerate(self.images):
             try:
@@ -200,9 +200,9 @@ class DocxToHtmlConverter:
                 saved_path = default_storage.save(image_path, ContentFile(img_data))
                 image_url = default_storage.url(saved_path)
                 
-                # Если URL не содержит полный домен, добавляем localhost для разработки
+                # Жестко прописываем URL для Render
                 if not image_url.startswith('http'):
-                    image_url = f'http://localhost:8000{image_url}'
+                    image_url = f'https://ent-trainer-web.onrender.com{image_url}'
                 
                 logger.info(f"Image saved successfully: {image_url}")
                 
