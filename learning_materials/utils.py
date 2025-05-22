@@ -200,6 +200,17 @@ class DocxToHtmlConverter:
                 saved_path = default_storage.save(image_path, ContentFile(img_data))
                 image_url = default_storage.url(saved_path)
                 
+                # Если URL относительный, создаем полный S3 URL
+                if not image_url.startswith('http'):
+                    from django.conf import settings
+                    if hasattr(settings, 'AWS_S3_CUSTOM_DOMAIN') and settings.AWS_S3_CUSTOM_DOMAIN:
+                        image_url = f"https://{settings.AWS_S3_CUSTOM_DOMAIN}/{saved_path}"
+                    else:
+                        # Формируем URL вручную
+                        bucket = getattr(settings, 'AWS_STORAGE_BUCKET_NAME', 'enttrainer')
+                        region = getattr(settings, 'AWS_S3_REGION_NAME', 'eu-north-1')
+                        image_url = f"https://{bucket}.s3.{region}.amazonaws.com/{saved_path}"
+                
                 logger.info(f"Image saved successfully: {image_url}")
                 
                 saved_images.append({
