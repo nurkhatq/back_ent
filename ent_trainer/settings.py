@@ -142,24 +142,15 @@ AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME', 'enttrainer')
 AWS_S3_REGION_NAME = os.environ.get('AWS_S3_REGION_NAME', 'eu-north-1')
-AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazonaws.com'
+AWS_DEFAULT_ACL = None
 
-# Определяем окружение
-IS_PRODUCTION = bool(os.environ.get('POSTGRES_HOST') and 'render' in os.environ.get('POSTGRES_HOST', ''))
-AWS_DEFAULT_ACL = 'public-read'
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/"
-DEBUG = False
+# Локальные медиа файлы (не используем S3)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# Настройки хранилища файлов
-if IS_PRODUCTION and AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY:
-    # В продакшене используем S3
-    DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# Всегда используем локальное хранилище файлов
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
+
+# Для Render
+if os.environ.get('POSTGRES_HOST') and 'render' in os.environ.get('POSTGRES_HOST', ''):
     DEBUG = False
-    # Убираем MEDIA_URL и MEDIA_ROOT в продакшене - они не нужны
-else:
-    # В разработке используем локальные файлы
-    DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
-    # Локальные медиа файлы для разработки
-    MEDIA_URL = '/media/'
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

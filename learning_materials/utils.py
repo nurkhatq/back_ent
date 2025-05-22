@@ -181,7 +181,7 @@ class DocxToHtmlConverter:
                     logger.error(f"Error extracting image {rel_id}: {str(e)}", exc_info=True)
 
     def _save_images_to_storage(self, material_id):
-        """Сохранение изображений в хранилище"""
+        """Сохранение изображений в хранилище (S3 или локально)"""
         saved_images = []
         for idx, img_info in enumerate(self.images):
             try:
@@ -213,16 +213,9 @@ class DocxToHtmlConverter:
                 image_url = default_storage.url(saved_path)
 
                 
-                # Если URL относительный, создаем полный S3 URL
+                # Если URL не содержит полный домен, добавляем localhost для разработки
                 if not image_url.startswith('http'):
-                    from django.conf import settings
-                    if hasattr(settings, 'AWS_S3_CUSTOM_DOMAIN') and settings.AWS_S3_CUSTOM_DOMAIN:
-                        image_url = f"https://{settings.AWS_S3_CUSTOM_DOMAIN}/{saved_path}"
-                    else:
-                        # Формируем URL вручную
-                        bucket = getattr(settings, 'AWS_STORAGE_BUCKET_NAME', 'enttrainer')
-                        region = getattr(settings, 'AWS_S3_REGION_NAME', 'eu-north-1')
-                        image_url = f"https://{bucket}.s3.{region}.amazonaws.com/{saved_path}"
+                    image_url = f'http://localhost:8000{image_url}'
                 
                 logger.info(f"Image saved successfully: {image_url}")
                 
