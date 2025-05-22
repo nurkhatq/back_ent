@@ -198,7 +198,16 @@ class DocxToHtmlConverter:
                 
                 # Сохраняем файл
                 saved_path = default_storage.save(image_path, ContentFile(img_data))
+
+                # Принудительно установить ACL вручную через boto3
+                try:
+                    s3 = default_storage.connection.meta.client
+                    s3.put_object_acl(ACL='public-read', Bucket=default_storage.bucket_name, Key=saved_path)
+                except Exception as e:
+                    logger.error(f"Failed to set ACL for {saved_path}: {e}")
+
                 image_url = default_storage.url(saved_path)
+
                 
                 # Если URL относительный, создаем полный S3 URL
                 if not image_url.startswith('http'):
