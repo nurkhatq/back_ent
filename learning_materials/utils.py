@@ -181,7 +181,7 @@ class DocxToHtmlConverter:
                     logger.error(f"Error extracting image {rel_id}: {str(e)}", exc_info=True)
 
     def _save_images_to_storage(self, material_id):
-        """Сохранение изображений в хранилище (S3 или локально)"""
+        """Сохранение изображений в хранилище (локально или на сервере)"""
         saved_images = []
         for idx, img_info in enumerate(self.images):
             try:
@@ -198,24 +198,21 @@ class DocxToHtmlConverter:
                 
                 # Сохраняем файл
                 saved_path = default_storage.save(image_path, ContentFile(img_data))
-
-                # Принудительно установить ACL вручную через boto3
-                from storages.backends.s3boto3 import S3Boto3Storage
-
-                if isinstance(default_storage, S3Boto3Storage):
-                    try:
-                        s3 = default_storage.connection.meta.client
-                        s3.put_object_acl(ACL='public-read', Bucket=default_storage.bucket_name, Key=saved_path)
-                    except Exception as e:
-                        logger.error(f"Failed to set ACL for {saved_path}: {e}")
-
-
                 image_url = default_storage.url(saved_path)
-
                 
-                # Если URL не содержит полный домен, добавляем localhost для разработки
+                # Исправляем URL для работы на любом домене
+                from django.conf import settings
+                import os
+                
+                # Если URL относительный, не добавляем домен
                 if not image_url.startswith('http'):
-                    image_url = f'http://localhost:8000{image_url}'
+                    # Для локальной разработки и продакшена
+                    # Django автоматически обработает относительные URLs
+                    pass
+                else:
+                    # Если URL абсолютный, но с localhost, исправляем на текущий домен
+                    if 'localhost:8000' in image_url:
+                        image_url = image_url.replace('http://localhost:8000', '')
                 
                 logger.info(f"Image saved successfully: {image_url}")
                 
