@@ -1,4 +1,5 @@
 
+import os
 from django.contrib import admin
 # ent_trainer/urls.py (add to existing urls.py)
 from django.urls import path, include
@@ -12,5 +13,7 @@ urlpatterns = [
     path('api/learning-materials/', include('learning_materials.urls')),
     path('api/context-questions/', include('context_questions.urls')),
 ]
-if settings.DEBUG:
+IS_PRODUCTION = bool(os.environ.get('POSTGRES_HOST') and 'render' in os.environ.get('POSTGRES_HOST', ''))
+
+if settings.DEBUG and not IS_PRODUCTION:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

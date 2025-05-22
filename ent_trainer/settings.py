@@ -153,6 +153,7 @@ if IS_PRODUCTION and AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY:
     # В продакшене используем S3
     DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
     DEBUG = False
+    # Убираем MEDIA_URL и MEDIA_ROOT в продакшене - они не нужны
 else:
     # В разработке используем локальные файлы
     DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
