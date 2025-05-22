@@ -1,0 +1,1403 @@
+{
+  "title": "4 бөлім Ақпараттық және программалық қамтамасыз ету",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Операциялық жүйе дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Оперативтік жадының жұмысын реттейтін программалық жасақтама",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Компьютерде орындалатын түрлі әрекеттер операциясы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Барлық программалық және ақпараттық жасақтамаларды басқаратын базалық жүйелік программалық жасақтама",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Барлық сыртқы және ішкі жасақтамаларды басқаратын дербес жүйелік программалық жасақтама",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Компьютердің ұзақ мерзімді жадының барлық құрылғыларында сақталатын программалық жасақтама",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Компьютердің ұзақ мерзімді жадының барлық құрылғыларында сақталатын программалар жиынтығы ол?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Операциялық жүйе",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Программалық жасақтама",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Программа",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Компьютер жүйесі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ақпараттық жасақтама",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Операциялық жүйелер нешеге бөлінеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Программалық жасақтаманың неше түрі бар?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "3",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 5,
+      "text": "МS DOS операциялық жүйесі жатады:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Дербес ОЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Бірміндетті ОЖ",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Көпміндетті ОЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Абсолюттік ОЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Аралас ОЖ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Windows операциядық жүйесі жатады:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Дербес ОЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Бірміндетті ОЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Көпміндетті ОЖ",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Абсолюттік ОЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Аралас ОЖ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 7,
+      "text": "Software-",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Барлық программалық құралдарының жиынтығы",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Компьютер жадындағы машина тіліндегі нұсқаулар",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Компьютердің сыртқы құрылғылармен өзара әрекеттесуін басқаратын бағдарлама",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Белгілі бір объектімен тікелей қарым-қатынас жасайтын командалық файл",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Әртүрлі объектілер орналасқан ОЖ экраны",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 8,
+      "text": "Аппараттақ жабдықтама:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Мәтіндік редакторлар, кестелік процессорлар, мәліметтер базасы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Процессор, жад түрлері, монитор, пернетақта т.б.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "ОЖ, программалар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Программалау тілдері, трансляторлар",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Графикалық редактор, тұтынушы программалар",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 9,
+      "text": "Open Source программалық жабдығы бұл –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Тегін программалық жабдықтар",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Еркін қолданыстағы программалық жабдықтар",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Шектеулі-тегін программалық жабдықтар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Қажетті программаларды ашық программалармен ауыстыру",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ашық жүйелік талаптарды орындау",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 10,
+      "text": "ДК сыртқы құрылғыларын неше топқа бөлінеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "8",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "7",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 11,
+      "text": "Компьютер жадының құрамы:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ішкі жад, процессор регистрлері, қатқыл дискілер",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Плоттер, сканер, принтер",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Адрестік шина, командалық шина, мәліметтер шинасы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "CD, DVD, RAM",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ішкі жад, сыртқы жад",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 12,
+      "text": "Қолданбалы программалық жасақтаманың құрамына кірмейді",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Мәтіндік редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Кестелік редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Мәліметтер базасы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Графикалық редакторлар",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Трансляторлар",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 13,
+      "text": "Құжаттың бөліктеріне сілтеме қалай қойылады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Мәзір – Сілтемелер",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Іске қосу- Сілтемелер",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Іске қосу-Сілтемелер тобы- Сілтемені таңдау",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Мәзір- құжат – Сілтемелер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Сілтеме-сілтеме қою",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 14,
+      "text": "Гиперсілтеме қою үшін",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Файл-Сілтемелер-Гиперсілтеме қою",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Сілтемелер-Гиперсілтемені қою",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Кірістіру-Сілтемелер-Гиперсілтеме",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Түр- Гиперсілтеме қою",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Дизайн-Гиперсілтеме қою",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 15,
+      "text": "Гиперсілтемені қою үшін пайдаланатын пернелер комбинациясы:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shift+Ins",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Shift+Del",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ctrl+O",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Ctrl+K",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Ctrl+S",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 16,
+      "text": "MS Excel 2007 –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Мәтіндермен жұмыс жасайтын редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Электрондық кестелермен жұмыс істеуге арналған программа",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Деректер базасы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Графикалық редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Мультимедиалық программа",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 17,
+      "text": "MS Excel 2007 баған мен жолдың қиылысуы",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Тор",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Жазба",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ұяшық",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Кесте",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Парақ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 18,
+      "text": "MS Excel  2007 адрестеудің неше түрі бар",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "3",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 19,
+      "text": "MS Excel 2007-де ұяшықты форматтау неше бөлімнен тұрады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "3",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 20,
+      "text": "Электрондық кестенің H5 ұяшығында =$B $5 * 5 формуласы жазылған. H7 ұяшығына көшіргенде алынатын формуланы тап.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "=$В$5* H5",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "=$В$7* H5",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "=$В$5* H7",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "=В$5* H7",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "=В$5$* H7",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 21,
+      "text": "Формуланың дұрыс өрнегін көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "=A3*B3",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "=50 х 100",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "=50$100",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "=A3/100",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "=A*B3",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 22,
+      "text": "Белгілі бір тапсырманы орындауға бағытталған арнайы программалық жасақтама қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "қолданбалы ПЖ",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "дербес ПЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "қызметтік ПЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "базалық ПЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "стандартты ПЖ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 23,
+      "text": "MS Excel 2007-дегі логикалық функцияларды көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "орташа мәні",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "макс",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "мин",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "егер",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "сомасы",
+          "is_correct": false
+        },
+        {
+          "letter": "F",
+          "text": "немесе",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D",
+        "F"
+      ],
+      "images": []
+    },
+    {
+      "number": 24,
+      "text": "Қолданбалы бағдарламалық жасақтамаға не жатады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "бағдарламалау жүйелері",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "кеңсе бағдарламалары",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "операциялық қабықшалар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "жасанды интеллект жүйелері",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "желілік бағдарламалық жасақтама",
+          "is_correct": false
+        },
+        {
+          "letter": "F",
+          "text": "автоматтандырылған жобалау жүйелері (АЖЖ)",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "B",
+        "D",
+        "F"
+      ],
+      "images": []
+    },
+    {
+      "number": 25,
+      "text": "Операциялық жүйенің негізгі функцияларына не жатпайды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "деректерді қатты диск секторлары бойынша біркелкі бөлу",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "программалардың сұраныстарын орындау",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "пайдаланушы интерфейсін қамтамасыз ету",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "шеткері құрылғыларға стандартталған қолжетімділік",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "компьютерге жаңартуды орнату",
+          "is_correct": true
+        },
+        {
+          "letter": "F",
+          "text": "вирустық шабуылдарды бақылау, қауіпсіздікті қамтамасыз ету",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "A",
+        "E",
+        "F"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 26,
+      "text": "Электрондық кестенің кейбір ұяшықтарына суретте көрсетілгендей сандар жазылады:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "16",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "18",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "9",
+          "is_correct": true
+        },
+        {
+          "letter": "F",
+          "text": "4",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "B",
+        "E",
+        "F"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/289f369c-bcfd-4466-8c4f-e2da2c9dfec5.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 27,
+      "text": "MS Excel 2007 парағының жұмыс аймағында орналасқан деректер базасы қызметін атқаратын:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Диапазон",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Тізім",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Форма",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Бет",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жазба",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 28,
+      "text": "MS Excel 2007-дің жұмыс парағын деректер базасын ретінде қарастыру үшін қойылатын талаптарды көрсетіңіз:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Жұмыс парағының әрбір бағанына бір өріс сәйкестендіріледі;",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Өріс тақырыбы екі ұяшықтан аспайтындай болу керек;",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Әрбір бағанның бірінші жолында қайталанатын өріс тақырыбы болу керек;",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Өріс тақырыбы бір ұяшықтан аспайтындай болу керек;",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Жазбаларды бос жол тастамай, бірінен соң бірін енгізеді.",
+          "is_correct": true
+        },
+        {
+          "letter": "F",
+          "text": "Деректер базасының бағандары бір-бірінен алшақ орналасуы тиіс.",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A",
+        "D",
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 29,
+      "text": "MS Excel 2007-де ең алғашқы қарапайым деректер базасы ретінде нені айтуға болады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Диапазон",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Тізім",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Форма",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Бет",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жазба",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 30,
+      "text": "MS Excel 2007-де деректер базасында жазбалардың, өрістердің жалпы санын  білуге болады:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Диапазон",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Тізім",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Форма",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Бет",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жазба",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 31,
+      "text": "MS Excel 2007-де ИНДЕКС функциясының қызметі:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Деректер ауқымындағы берілген қатар мен баған нөміріне сәйкес келетін ұяшық мәнін көрсетеді",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Ізделініп жатқан мәннің берілген деректер ауқымындағы орнын табу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Функцияның міндетті аргументтерінің бірі, іздеу жүріп жатқан деректер ауқымы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Сәйкестендіру типтерінің міндетті массивтен мәнді іздеудегі қойылатын талаптарды көрсетеді",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ізделініп жатқан мәннің берілген деректер ауқымындағы санын табады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 32,
+      "text": "В2-ден В8-ге дейінгі ұяшық диапазонының қосу формуласының жазылуын көрсетіңіз?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "=(B2+B8)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "=(B2:B8)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "=B8+B2",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "=СУММ( B2+B8)",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "=СУММ( B2:B8)",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 33,
+      "text": "A1:A5 ұяшықтарында 10,7,9,27 және 2 мәндері берілген минимум табу функциясын қолданып табыңыз:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "=МИН (А1:А6)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "=МИН(A1:A5)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "=МИН(A1+A5)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "=МИН(A1- A6)",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "=МИН(A1^A5)",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 34,
+      "text": "A1:A5 ұяшықтарында 10,7,9,27 және 2 мәндері берілген арифметикалық ортасын табу функциясын қолданып табыңыз:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "=СРЗНАЧ(A1-A5)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "=СРЗНАЧ(A1+A5)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "=СРЗНАЧ(A1/A5)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "=СРЗНАЧ(A1:A5)",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "=СРЗНАЧ(A1:A6)",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 35,
+      "text": "БАС әріптерді кіші әріптерге ауыстыру функциясын көрсетіңіз:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ПСТР()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "СТРОЧН()",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "ДЛСТР()",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ЕСЛИ()",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "СЦЕПИТЬ()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/3763fb78-5105-4962-a5e5-8179a3f15d69.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 36,
+      "text": "функциясының нәтижесі:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "aty cit",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "t",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "city",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "almaty",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "alty cit",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/2b67b5f0-a86c-46a3-904f-324449cf0da5.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 37,
+      "text": "қандай фунция қолданылған?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ПСТР()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ЗАМЕНИТЬ()",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "ДЛСТР()",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ЕСЛИ()",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "СЦЕПИТЬ()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/2bbbb015-f82b-49a3-8b9c-75593ab7678e.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "text": "қандай фунция қолданылған?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ПСТР()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "СТРОЧН()",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ДЛСТР()",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "ЕСЛИ()",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "СЦЕПИТЬ()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/3e84ed1a-0dd7-41c3-9da8-ddca9b7b3bdc.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "total_questions": 38,
+  "multiple_answers_allowed": true,
+  "has_images": true
+}

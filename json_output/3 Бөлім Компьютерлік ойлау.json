@@ -1,0 +1,3008 @@
+{
+  "title": "3 Бөлім Компьютерлік ойлау",
+  "questions": [
+    {
+      "number": 1,
+      "text": "print функциясы қандай қызмет атқарады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Шығару",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Енгізу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Алмастыру",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Жабу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Сақтау",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 2,
+      "text": "sep=”  ”аргументін не себепті пайдаланады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "біріктіруді орнатуға мүмкіндік береді",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "қайталап жазуға мүмкіндік береді",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "бөлгішті орнатуға мүмкіндік береді",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "өшіруге мүмкіндік береді",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "қиып алуға мүмкіндік береді",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Программалау кодын машиналыққа түрлендіретін арнайы программа",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Маршрутизатор",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Катализатор",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Интерпретатор",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Транслятор",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Коммутатор",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Төмендегі программа нәтижесінде экранға не шығады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Барлық жолды шығарады",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Бірінші, екінші символды шығарады",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Соңғы символды шығарады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Жолды түгел жояды",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жолды 14 рет қайталайды",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/2377fbcb-3ec5-481b-bbd5-1ab3217f380e.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 5,
+      "text": "Төмендегі программа нәтижесінде экранға не шығады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Бір символды азайтып отырады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Жолды кері оқиды",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Соңғы символды жояды",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Жолдағы сөздерді 1 санына ауыстырады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Бірінші символды жояды",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/1c770cde-470d-43bc-aebb-7bab8365f69e.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Төмендегі программа нәтижесінде экранға не шығады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "['Tereze', 512, 'Esik']",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "[512, 'Esik', 3.14]",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "['Tereze', 512, 'Esik', 3.14]",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "[123, 'Shatyr']",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "['Tereze', 512, 'Esik', 3.14, 123, 'Shatyr']",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/a94bd19a-8848-492f-a3f0-24eb7fd4e062.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 7,
+      "text": "print (8%2)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "бүтін бөлікті есептейді",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "қалдықты есептейді",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "процентті есептейді",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "дәрежелейді",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "көбейтеді",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 8,
+      "text": "Пернетақтадан мәліметтерді енгізу үшін кірістірілген функция:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boolean",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Print",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Integer",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Float",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Input",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 9,
+      "text": "Бүтін санды табу қандай белгімен белгіленеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "//",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "**",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "%",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "++",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "–",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 10,
+      "text": "ceil(num):",
+      "options": [
+        {
+          "letter": "A",
+          "text": "нақты санды ең кіші бүтін санға дейін дөңгелектеу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "num санның квадрат түбірін табу.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "бүтін санды ең жақын нақты санға дейін дөңгелектеу.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "бүтін санды ең кіші нақты санға дейін дөңгелектеу.",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "нақты санды ең жақын бүтін санға дейін дөңгелектеу.",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 11,
+      "text": "Программа кодының нәтижесі:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "file айнымалысы жаңа мәтіндік файлға сілтеме жасайды",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "test.txt файлын ашып, файл атауын өзгертеді",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "file айнымалысы жаңа кестелік файлға сілтеме жасалғанын көрсетіп тұр",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "test.txt файлын ашып ішіне жаңа тест деп жазады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "файлдағы құжатты жояды",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/2b0b738d-9eef-4c69-9169-f1bfc3e4920d.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 12,
+      "text": "Алдын ала жасалған файлды ашып, ондағы жазбалардың соңына жаңа деректерді қосып жазу режимі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "'w'",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "'r'",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "'+'",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "'a'",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "'t'",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 13,
+      "text": "read () әдісінің қызметі:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "деректерді файлға жазу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "файлды жабу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "деректерді файлдан оқу",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "деректерді файлдан өңдеу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "файлды ашу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 14,
+      "text": "Readline () функциясы қызметі:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Файлдағы жолдарды өзгертеді",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Файлдағы жолдарды жеке-жеке оқиды",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Файлды екілік (бинарлық) режімде ашады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Файлды оқу мен жазу үшін ашады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Файлды мәтіндік режімде ашады (үнсіз келісім бойынша)",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 15,
+      "text": "Тармақталған алгоритм дегеніміз ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "барлық әрекеттер тізбектеліп бірінен кейін бірі табиғи реттілікпен орындалатын алгоритм",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "алгоритмнің немесе программаның бірнеше рет орындалатын бөлігі",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "қадам белгілі бір шарттың орындалу немесе орындалмауына байланысты жүзеге асырылатын алгоритм.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "әрекеттер қайталанбай орындалатын алгоритм",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "программаның үзіліссіз орындалатын бөлігі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 16,
+      "text": "Егер a=6; b=5 программа нәтижесі қандай болады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "56",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "45",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "41",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "74",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "63",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/b2eefcea-d114-4468-8093-96bd6c66cc5e.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 17,
+      "text": "Программа нәтижесін қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Екі санның үлкенін табу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Үш санның үлкенін табу",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Үш санның кішісін табу",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Екі санның кішісін табу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Программадағы үш санды қосу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/50d928f9-041c-4c97-b938-46fd409f64fc.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 18,
+      "text": "Шарт тексеру операторының толық жазылу түрі.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "if шарт :",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "if шарт : 1-командалар блогы else: 2-командалар блогы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "if шарт  1-командалар блогы;",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "if <шарт>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "if шарт : 1-командалар блогы else: 2-командалар блогы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 19,
+      "text": "Шарт тексеру операторының құрамында екінші шарт тексеру операторын қолдану-",
+      "options": [
+        {
+          "letter": "A",
+          "text": "шартты оператор",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "кірістірілген шарт тексеру",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "іштестірілген шартты оператор",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "құрылымданған оператор",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "қарапайым оператор",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 20,
+      "text": "Егер «а» айнымалысына «5» санын меншіктесе, программа нәтижесі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "-5",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a*5",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "10",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "а+5",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "25",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/d37d8710-0792-4ccf-8d10-980ed66377e1.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 21,
+      "text": "Егер 5 санын енгізсеңіз, программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Koktem mezgili",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Jaz mezgili",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Kuz mezgili",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Qys mezgili",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Jyldyn tort mezgili",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/ce53c417-42da-48d7-a426-6b0bca617ded.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 22,
+      "text": "Егер 4 санын бассаңыз, программа нәтижесі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Duisenbi",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Seisenbi",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Sarsenbi",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Beisenbi",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Juma",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/422ea680-3855-45b2-ace7-02726b53e45f.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 23,
+      "text": "Программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "50",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "63",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "70",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "52",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "101",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/453203b6-4731-4bdb-91ab-3acd7eff1bbf.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 24,
+      "text": "Егер a=3, b=5 болса, программа нәтижесі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "8",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/a1400901-ae85-4d46-892c-e17efdd20c8a.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 25,
+      "text": "Программа нәтижесінде не орындалады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salem сөзі 6 рет шығады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Salem сөзі шығады",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Salem сөзі  4 рет шығады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Salem сөзі  шықпайды",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Salem сөзі 5 рет шығады",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/d23cf37e-680a-4c5a-9092-5675aa016d5c.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 26,
+      "text": "Python тілінде тізімнің ұзындығын анықтау үшін қандай функция қолданылады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "size()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "length()",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "len()",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "count()",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "sum()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 27,
+      "text": "Бірнеше рет орындауды қажет ететін код тізбегі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Цикл басы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Цикл денесі",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Итерация",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Шексіз цикл",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Цикл ортасы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 28,
+      "text": "Шартты алдын ала тексеру циклі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "If",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "For",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "While",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Elif",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Break",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 29,
+      "text": "Программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "45",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "105",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "50",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "55",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "49",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/36532283-f50b-4664-bad2-307306c33156.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 30,
+      "text": "Программадан қатені тап",
+      "options": [
+        {
+          "letter": "A",
+          "text": "x<2:",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "x=1+x",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "x=1",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "x>2",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "қате жоқ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/b3df080c-b17e-43d1-9637-7c9a56012433.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 31,
+      "text": "программа нәтижесінде не шығады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "х-тің мәні 44-ке тең",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "4 санының көбейту кестесі",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "4 санының еселіктері",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1 мен 11 саны арасындағы 4-ке бөлінетін сандар тізбегі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "х=4",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/68a707bf-2d89-4691-bf23-aa5c749c7cb3.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 32,
+      "text": "Программасының нәтижесі, егер n=20",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1-19 дейінгі тақ сандар тізбегі",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0-19 дейінгі тақ сандар тізбегі",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1-19 дейінгі жұп сандар тізбегі",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1-20 дейінгі тақ сандар тізбегі",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "1-20 дейінгі жұп сандар тізбегі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/15098de6-cdb5-48d1-b60f-ec28a396b25c.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 33,
+      "text": "Программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2-100 дейінгі жай сандарды табу",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2-100 дейінгі жұп сандарды табу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2-100 арасындағы 2-ге бөлінетін сандарды табу",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2-100 арасындағы сандардың қосындысын табу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2-100 арасындағы сандардың 2-ге еселіктерін табу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/104396a7-1b3e-4138-bed8-2c1a4b2ddd7b.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 34,
+      "text": "Программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0-100 дейінгі жай сандарды табу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0-100 дейінгі жұп сандарды табу",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "0-100 арасындағы 2-ге бөлінетін сандарды табу",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "0-100 арасындағы сандардың қосындысын табу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "0-100 арасындағы сандардың 2-ге еселіктерін табу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/17ab50f6-3b6b-4ba4-bfce-4f59961d2944.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 35,
+      "text": "Программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salem",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "lem",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "S",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "l",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Sa",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/28a42575-39f6-4abc-9a67-b1621bae6d2b.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 36,
+      "text": "Программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Py",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Ton",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Pyton",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "P",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Hon",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/d5d1a5c9-31c7-4e44-b9e3-1f99bb24445d.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 37,
+      "text": "Программа нәтижесі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 2 3 4",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0 1 2 3 4",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Соны",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "0 1 2 3 4 соны",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "4 соны",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.eu-north-1.amazonaws.com/images/37.jpg",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "text": "Алгоритм трассировкасы дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "алгоритмді орындаудағы процессор жұмысының моделі",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "алгоритмнің жұмыс істеу қабілетін тексеру, қателерін іздеу және т.б. үшін қолданылатын программаны қадам-қадаммен орындау",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "циклдің орындалу шарты жалған болған жағдайда цикл аяқталғаннан кейін келесі операторлар блогы орындалады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "алгоритмнің жұмыс істеу қабілетін анықтау және қолданылатын программаны циклдық параметрлерін анықтау",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "алгоритмді тоқтатудағы процессор  моделі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 39,
+      "text": "Синтаксистік қателер дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Орындау қателері",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "программаны жазу барысында компьютер бұзылғанда пайда болатын қателер",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "программаны жазу барысында программалау тілінің синтаксисі бұзылғанда пайда болатын қателер",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "мән қателігі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "тип қателігі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 40,
+      "text": "Көрсетілген фрагментті орындағанда қандай нәтиже шығатынын анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "45",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "52",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "23",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "65",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "44",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 41,
+      "text": "output.txt  файлында жазылатын мән",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "17",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "11",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "19",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "20",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/4d74f765-7169-4b63-a480-1e841740ee60.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 42,
+      "text": "n = 629 және k = 2 болғанда алынатын нәтиже",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "9",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "7",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/95a8057a-ebd9-4cda-8035-d212bdfcadc2.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 43,
+      "text": "n=4 болғанда алынатын нәтиже",
+      "options": [
+        {
+          "letter": "A",
+          "text": "24",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "16",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "64",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/dda5ed7b-57c2-4103-ba54-032e687bf419.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 44,
+      "text": "Программа нәтижесін анықтаңыз.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4 12",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "4 15",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "5 13",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3 12",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2 14",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/d789977c-5a6c-4b00-aee0-b6ea2b0f610b.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 45,
+      "text": "Программадағы string айнымалысының мәні «I go to school» болғанда алынатын нәтиже",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I GO TO SCHOOL",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Igotoschool",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "loohcsotogI",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "school",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "I GOTO SCHOOL",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.eu-north-1.amazonaws.com/images/45.jpg",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "text": "Python-дағы тізім (list) элементтерін кері ретпен орналастыру үшін қандай әдіс қолданылады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": ".sort()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": ".reverse()",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": ".append()",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": ".remove()",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": ".count()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 47,
+      "text": "Төмендегі программаның нәтижесінде а айнымалысының мәні нешеге тең болады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "15",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "12",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "19",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "20",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/c7883afc-640f-44dd-9f8b-47493030d26e.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 48,
+      "text": "Төменде берілген программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "-1",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "-3",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/51c5e1b1-ee9a-42cb-80f7-d40f8c4a748f.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 49,
+      "text": "Төменде берілген программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "20",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "15",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "25",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/2c018a34-ab9d-4398-814e-e6d00156f492.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 50,
+      "text": "Төменде берілген программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/9bbc8f0a-ed92-42d2-b901-f0fad01e8f62.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 51,
+      "text": "Төменде берілген программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "13",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/43acf7f2-a44e-4420-b153-f90ebcc1cdf4.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 52,
+      "text": "Қайсы команда Num массивінің ең кіші элементін шығаруға мүмкіндік береді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "print(min(Num))",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "print(min)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "print(num)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "print(min())",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "print()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 53,
+      "text": "Программа нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "15",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "20",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "30",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "40",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/7909c267-e702-4f1d-bdcc-e1a13e121496.png",
+          "type": "image/png"
+        } 
+    ]
+    },
+    {
+      "number": 54,
+      "text": "r = pow(abs(-2) + abs(-1), round(1.8)) print(r) өрнегі орындалғаннан кейін экранға қандай мән шығады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 55,
+      "text": "Программа нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "7",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "9",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "11",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.eu-north-1.amazonaws.com/images/55.jpg",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "text": "Берілген программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "b",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "10",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/eee0f329-c8b0-4ccf-be22-43f352a665bf.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 57,
+      "text": "[6, 12, 4, 3, 8] тізімін өсу ретімен, көпіршікті әдіспен сұрыптағанда 2-итерациядан кейін тізім қалай өзгеретінін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[6, 4, 3, 8, 12]",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "[6, 12, 4, 3, 8]",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "[4, 3, 6, 8, 12]",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "[3, 4, 6, 8, 12]",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "[6, 3, 4, 8, 12]",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/eee0f329-c8b0-4ccf-be22-43f352a665bf.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 58,
+      "text": "Берілген программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/e0adfac3-b8fc-4517-81d3-bd7c51ac1984.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 59,
+      "text": "Бір атауға біріктірілген бір типті шамалардың реттелген тізбегі қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Жазба",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Тип",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Қатар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Массив",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Символ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 60,
+      "text": "Берілген массивті төменде көрсетілгендей етіп толтыру үшін қай формуланы қолдану керек?   x = [12 9 6 3 0 -3]",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X[k] = k",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "X[k] = 12 - 3*k",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "X[k] = 2*k - 1",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "X[k] = 12*k + 1",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "X[k] = k+2",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 61,
+      "text": "Программа нәтижесін анықта.\nnew = [1, 2, 6, 0, -1, 13, 1, 17]\nnew.append(6)\nprint(new) ",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[6, 1, 2, 6, -1, 13, 1, 17]",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "[1, 2, 6, 0, -1, 13, 1, 17, 6]",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "[1, 2, 0, -1, 13, 1, 17]",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "[1, 2, 6, 0, -1, 13, 1, 17]",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "[1, 2, 6, -1, 13, 1, 17, 6]",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 62,
+      "text": "Программа нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/0e332e4d-55d7-4008-aa19-d26de45951b3.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 63,
+      "text": "Программа нәтижесін анықта",
+      "options": [
+        {
+          "letter": "A",
+          "text": "тізім элементтерін өшіреді",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "11 элементтен тұратын тізім құрады",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "енгізілген мәндерді тізімге жазады және шығарады",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "тізім элементтерін қосады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "енгізілген мәндерді тізімге жазады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.eu-north-1.amazonaws.com/images/63.jpg",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "text": "Х айнымалысының мәні 5-ке тең болғандағы программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2.0",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "-3.0",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "-1",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "-2",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 65,
+      "text": "Программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "8",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "10",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/e0124e26-2991-40b0-ab2e-18e4d592118c.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 66,
+      "text": "Программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 4 6 8",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0 3 4 12",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0 3 6 9",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "12 9 6 3",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "8 6 4 1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/a95db4cc-5a9a-4637-b9d6-8562728c155c.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 67,
+      "text": "Newlist деп аталатын тізімнің элементтерінің санын анықтайтын функцияны көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "len(newlist[]",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "newlist",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "len(newlist)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "len(newlist[i])",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "len(newlist[n])",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/a95db4cc-5a9a-4637-b9d6-8562728c155c.png",
+        "type": "image/png"
+      } ]
+    },
+    {
+      "number": 68,
+      "text": "Программаның нәтижесін анықта, мұндағы x = 284.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "14",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "100",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "7",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/e46f2d84-7b10-4b2f-b0ab-c435b005b41a.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 69,
+      "text": "Берілген массивті төменде көрсетілгендей етіп толтыру үшін қай формуланы қолдану керек?    x = [10 7 4 1 -2 -5]",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X[k] = 10 - 3*k",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "X[k] = 10*k + 1",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "X[k] = k",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "X[k] = 2*k - 1",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "X[k] = 2*k + 1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 70,
+      "text": "Python программалау тіліндегі файлдың типтерін көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "жеке, жалпы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ішкі, сыртқы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "мәтіндік, бинарлық",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "бинарлы, унарлы",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ашық, жабық",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 71,
+      "text": "Егер a=78, b=66 болса, онда m айнымалысының мәні қалай болады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "66",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "12",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "144",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "78",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "51",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/17b0d35a-ee49-4991-a04b-a49b79bbbf68.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 72,
+      "text": "Программа фрагментінің нәтижесін анықта:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "16",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "7",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "8",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "13",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/a1159c04-6e67-4a43-af66-06b73505b7c5.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 73,
+      "text": "x айнымалысына 456 санын енгізгендегі нәтижені белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "120",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "15",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "30",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "16",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "101",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/364dfdac-2e2b-4fac-97ca-3f004ddeeac7.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 74,
+      "text": "Программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "57",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "12",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "33",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "75",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/40d69df7-4c45-4d19-b439-95640a22b325.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 75,
+      "text": "Программаның нәтижесін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[9, 16, -6, 38, 13]",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "[14, 28, -16, 72, 22]",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "[49, 196, 64, 1296, 121]",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "[3.5, 7, -4, 18, 5.5]",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "[14, 28, 16, 72, 22]",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/7205b27e-8d64-4fd4-9bcd-5f5c425b8079.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 76,
+      "text": "Программалауда reverse() функциясы не үшін қолданылады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "max және min элементтердің орнын ауыстырады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "тізімдегі барлық элементтің қосындысын шығарады",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "тізімдегі элементтерді кері ретпен орналастырады",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "элементтердің орнын ауыстырады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "тізімдегі барлық элементтің айырмасын шығарады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 77,
+      "text": "Кодтағы n айнымалысына 6 санын енгізгенде шығатын нәтижені тап.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "7",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "36",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "720",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "21",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "53",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/027b3ce6-bc7c-460b-aeb4-a5024a6f16ba.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 78,
+      "text": "Берілген программадағы remove() функциясы нені орындайды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "тізімдегі элементтерді 2-ге арттырады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "тізімдегі элементтерді 2-ге кемітеді",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "тізімнен «2» элементін жояды",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "екінші тұрған элементті жояды",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "екінші  элемент қосады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/027b3ce6-bc7c-460b-aeb4-a5024a6f16ba.png",
+        "type": "image/png"
+      }]
+    }
+  ],
+  "total_questions": 78,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

@@ -1,0 +1,450 @@
+{
+  "title": "12 бөлім Заттар интернеті",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Заттар интернеті –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Тек адамдарды тұратын жүйелерді біріктіру",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Аналогтық және цифрлық әлемдердегі нәрселердің бәрін біріктіру",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Құпия ақпараттардың жиынтығы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Заттарды интернет арқылы сатумен айналысу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Цифрлық әлеммен байланысу үшін заттарды пайдалану",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Заттар интернеті жүйесі ақпарат алмасу үшін пайдаланатын протоколдар",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TCP/IP",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "SSH",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "IMAP",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "POP3",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "PPP",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Заттар интернетінің негізін қалаушы",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Гвидо ван Россум",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Бьёрн Страуструп",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Джеймс Гослинг",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Роб ван Краненбург",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Расмус Лердорф",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Заттар интернетінің бағыттары қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Тұтынушылық, тұрмыстық",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Техникалық, электрондық",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Тұтынушылық, өнеркәсіптік",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Өнеркәсіптік, техникалық",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Механикалық, динамикалық",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "Мобильді қосымша жасауға арналған платформалар неше түрі бар?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Генераторлар дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Дайын элементтер негізінде мобильді қосымша жасайтын платформалар",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Конструктор негізінде мобильді қосымша жасайтын платформалар",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Графикалық редакторлар негізінде мобильді қосымша жасайтын платформалар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Операциялық жүйе арқылы мобильді қосымша жасайтын платформалар",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Веб-беттер негізінде мобильді қосымша жасайтын платформалар",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "MIT App Inventor интерфейсінің бөліктері",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Дизайнер мен редактор",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Конструктор мен редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Редактор мен компонент",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Дизайнер мен оператор",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Қосымшалар терезелері, редактор",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "«Заттар интернетіне» тән технологияны көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "интерфейстер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "сегменттер",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "контроллер",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "орындаушы құрылғылар",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "блоктар",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 9,
+      "text": "Мобильді қосымшаларды құру кезеңдері:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Техникалық құралдарын түгендеу, құрастыру",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ұжымдастыру, брейнстроминг",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ашу, программалау",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Мобильді қосымшаны құру мақсаты, дизайнын әзірлеу, программалау, жариялау және тестілеу",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Интерфейс стилін таңдау, әзірлеу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 10,
+      "text": "Дизайнер режимі:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Бағдарлама жасауға арналған",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Палитра жасауға арналған",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Қосымша жасауға арналған",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Компоненттер құруға арналған",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Қолданба интерфейсін жасауға арналған",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ]
+    },
+    {
+      "number": 11,
+      "text": "Мобильді қосымшаларды құру қанша кезеңнен тұрады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "7",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 12,
+      "text": "Мобильді қосымша анықтамасы?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Нақты платформа үшін әзірленген смартфондарда, планшеттерде және басқа да мобильді құрылғыларда жұмыс істеуге арналған программалық жасақтама",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Нақты платформа үшін әзірленген бағдарлама",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Мобильді қосымшаларда жұмыс істеуге арналған қосымшалар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Нақты платформа үшін әзірленген компьютерлерде жұмыс істеуге арналған программалық жасақтама",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Кез келген жерде мобильді байланыс құру мүмкіндігі бар қосымша",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 13,
+      "text": "«Ақылды үй» заттар интернетінің бағдарламасы (IoT) бұл технология несімен ерекшеленеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Жүйе адамның қажеттілігіне қарай икемделеді",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Датчиктер барлық бөлмеге орналасқан, олар температураны, ылғалдылықты және басқа да параметрлерді бақылып тұрады",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Азық қоры, тазартқыш құралдар және т.б. автоматты түрде толығып отырады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Жарық барлық бөлмеде реттеліп тұрады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Қауіпсіз, еркін, эргономикалық қолайлы болады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    }
+  ],
+  "total_questions": 13,
+  "multiple_answers_allowed": false,
+  "has_images": false
+}

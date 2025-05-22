@@ -1,0 +1,168 @@
+{
+  "title": "1-нұсқа",
+  "description": "⠀⠀⠀Арман Python программалау тілін үйрене бастады. Төменде ол жазған алғашқы программалардың бірі берілген. Оның a, b, с нақты сандары ішінен ең үлкенін және ең кішісін анықтайтын программа құруы қажет болды. Арман a, b, c айнымалыларына сәйкесінше 8, 2, –7 мәндерін беріп, программаны іске қосты, бірақ нәтиже дұрыс шықпады. Программа жазуда жіберген қателерін тауып, Арманға кодты дұрыс жазуға көмектес.",
+  "context": {
+    "text": "⠀⠀⠀Арман Python программалау тілін үйрене бастады. Төменде ол жазған алғашқы программалардың бірі берілген. Оның a, b, с нақты сандары ішінен ең үлкенін және ең кішісін анықтайтын программа құруы қажет болды. Арман a, b, c айнымалыларына сәйкесінше 8, 2, –7 мәндерін беріп, программаны іске қосты, бірақ нәтиже дұрыс шықпады. Программа жазуда жіберген қателерін тауып, Арманға кодты дұрыс жазуға көмектес.",
+    "images": [
+      {
+        "url": "https://contextent.s3.amazonaws.com/images/fa092fed-090d-4ea3-942c-c5050112299a.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "IF командасының қызметін көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "енгізу операторы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "шартты оператор",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "циклді басқару",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "шығару операторы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 2,
+      "text": "Программада IF операторының қай түрі қолданылған?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "If + elif + else түрі",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "кірістірілген оператор",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "толық емес if операторы",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "толық if операторы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 3,
+      "text": "Арман бесінші жолдағы қатені тапты және дұрыс нұсқасын жазды. Ол қай нұсқа?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "min=b",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "max=x",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "max=a&b",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "min=c",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "Программа іске қосылған кезде қате көрсететін жолды белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "6",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Программа дұрыс іске қосылған кездегі нәтижені анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "min =  1\nmax =  9",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "min =  –8 max =  9",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "min =  9\nmax =  -8",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "min =  –8\nmax =  1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 5,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

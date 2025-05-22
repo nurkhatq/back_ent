@@ -1,0 +1,786 @@
+{
+  "title": "2 бөлім Ақпараттық процестер",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Ақпараттың екілік бірлігі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Бит",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Байт",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Мбайт",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Кбайт",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Гбайт",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Байланыс арналарының ақпарат тасымалдау жылдамдығының өлшем бірлігі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Бит",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Бот",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Байт",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Сек",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Бит/сек",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 3,
+      "text": "120 Мб ақпаратты 8 минутта тасымалдау жылдамдығын есептеңіз.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "286 Кб/с",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "256 Кб/с",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "150 Кб/с",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "300 Кб/с",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "524 Кб/с",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 4,
+      "text": "2 Мб ақпарат 64 Кб-тан неше есе үлкен?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "12 есе артық",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "30 есе артық",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "32 есе артық",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "21 есе артық",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "44 есе артық",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 5,
+      "text": "448 беттен тұратын кітаптың көлемі 700 Мб компакт-дискінің қанша бөлігін алады? Кітаптың бір бетінде шамамен 64 символдан тұратын 64 жол бар деп есепте.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,025 (бөлігі).",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0,25 (бөлігі).",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0,50 (бөлігі).",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "0,0025 (бөлігі).",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "0,045 (бөлігі).",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 6,
+      "text": "2048 байт = * Кб",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+       
+      ]
+    },
+    {
+      "number": 7,
+      "text": "25 10 екілік санау жүйесіне ауыстыр",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1110012",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1100112",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "100012",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "110112",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "110012",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 8,
+      "text": "13710  сегіздік жүйеге ауыстыр",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2118",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2138",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5118",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3118",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4418",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 9,
+      "text": "55810   он алтылық санау жүйеге ауыстар",
+      "options": [
+        {
+          "letter": "A",
+          "text": "45A",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "12F",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "10C",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4E",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "22E",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 10,
+      "text": "11102     ондық жүйеге ауыстыр",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1510",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1310",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "10010",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4510",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "7110",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+       
+      ]
+    },
+    {
+      "number": 11,
+      "text": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F симолдарынан тұратын санау жүйесі қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "8",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "16",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 12,
+      "text": "101001₂ екілік санының ондық жүйедегі жазылуын көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "41₁₀",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "30₁₀",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "32₁₀",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "20₁₀",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "51₁₀",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 13,
+      "text": "125₁₀ ондық санын сегіздік жүйеге ауыстыр.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "134₈",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "175₈",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "169₈",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "140₁₆",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "155₈",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 14,
+      "text": "Өрнекті орындап, нәтижесін ондық жүйеде жаз. 23₁₆ + 23₈",
+      "options": [
+        {
+          "letter": "A",
+          "text": "50₁₀",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "46₁₀",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "40₁₀",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "54₁₀",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "36₁₀",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": ["D"],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 15,
+      "text": "Ақпарат қабылдау тәсіліне қарай қалай бөлінеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "маңызды, шынайы, түсінікті, толық, пайдалы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "визуалды, тактильді, дәм сезу, дыбыстық",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "жалпы, арнайы, жеке, құпия",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "мәтіндік, цифрлық, графикалық, бейнеақпарат",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ауызша, жазбаша",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 16,
+      "text": "Ақпарат пайдалану мақсатына қарай қалай бөлінеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "мәтіндік, цифрлық, графикалық, бейнеақпарат",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "визуалды, тактильді, дәм сезу, дыбыстық",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "жалпы, арнайы, жеке, құпия",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "маңызды, шынайы, түсінікті, толық, пайдалы",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ауызша, жазбаша",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 17,
+      "text": "Мәтіндегі ақпарат санын есептеудің дұрыс формуласын көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A * B * C",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "N = 2 х",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "I = K * x",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "I = 2 х",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "I = 4х",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 18,
+      "text": "Unicode стандарты бойынша бір символды кодтау үшін қажетті ақпарат саны қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2 байт",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "8 бит",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "256 байт",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "8 байт",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4 байт",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+       
+      ]
+    },
+    {
+      "number": 19,
+      "text": "1 минут ішіндегі өткізу жылдамдығы 10 Кбит/сек болатын өткізу каналы арқылы жіберуге болатын ақпарат көлемін көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "500 бит",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "750 байт",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "600 Кбит",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "1000 бит",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "250 байт",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 20,
+      "text": "Үш қадамды Цезарь шифрлауын пайдаланып алынған «ВҢОВҮЭ» кодына сәйкес қала атауы қайсы?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "АТЫРАУ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "АСТАНА",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "АЛМАТЫ",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "БАЛҚАШ",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "АҚТӨБЕ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 21,
+      "text": "Асимметриялық шифрлау алгоритмін көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BL",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "RSA",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "DES",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "AES",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "AUTH",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/252ac946-f74d-441d-89d1-fbb09ffa518f.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "total_questions": 21,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

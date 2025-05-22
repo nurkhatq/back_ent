@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:14
+    environment:
+      - POSTGRES_DB=ent_db
+      - POSTGRES_USER=ent_user
+      - POSTGRES_PASSWORD=ent_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  web:
+    build: .
+    command: /code/entrypoint.sh
+    volumes:
+      - .:/code
+      - ./json_output:/code/json_data
+      - ./bolimder:/code/bolimder
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_DB=ent_db
+      - POSTGRES_USER=ent_user
+      - POSTGRES_PASSWORD=ent_password
+      - POSTGRES_HOST=db
+      # AWS ключи загружаются из .env файла или переменных окружения
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_STORAGE_BUCKET_NAME=${AWS_STORAGE_BUCKET_NAME:-enttrainer}
+      - AWS_S3_REGION_NAME=${AWS_S3_REGION_NAME:-eu-north-1}
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:

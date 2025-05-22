@@ -1,0 +1,168 @@
+{
+  "title": "10-нұсқа",
+  "description": "Бақылау жұмысында оқушыларға берілген санның, сөздің немесе сөйлемнің палиндром екенін анықтайтын программа жазуға тапсырма берілді.  Палиндром дегеніміз – тура оқысаң да, кері оқысаң да, бірдей оқылатын сөздер. Мысалы, 101 саны, «ана» сөзі және әлемдегі ең ұзын палиндром сөз болып есептелетін «saippuakivikauppias» сөзі. Төменде оқушылардың бірі жазған программаның коды берілген. Программаға талдау жасап, қателерін тап та, дұрыс нұсқасын жаз.",
+  "context": {
+    "text": "Бақылау жұмысында оқушыларға берілген санның, сөздің немесе сөйлемнің палиндром екенін анықтайтын программа жазуға тапсырма берілді.  Палиндром дегеніміз – тура оқысаң да, кері оқысаң да, бірдей оқылатын сөздер. Мысалы, 101 саны, «ана» сөзі және әлемдегі ең ұзын палиндром сөз болып есептелетін «saippuakivikauppias» сөзі. Төменде оқушылардың бірі жазған программаның коды берілген. Программаға талдау жасап, қателерін тап та, дұрыс нұсқасын жаз.",
+    "images": [
+      {
+        "url": "https://contextent.s3.amazonaws.com/images/d0be362e-0591-48b1-8963-1f9bde5321c7.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "Программада пайдаланылған len() функциясы не үшін қажет?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "айнымалы мәнін енгізу үшін",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "қатардың ұзындығын анықтау үшін",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "жарты ұзындықты анықтау үшін",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "қатарды реттеу үшін",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 2,
+      "text": "Программадағы break функциясы неге жауап береді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "циклді мерзімінен бұрын аяқтайды",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "программаны аяқтайды",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "циклдің аяқталғанын тексереді",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "циклді жалғастырады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 3,
+      "text": "Программа дұрыс жұмыс істеуі үшін 4-жолды қалай жазу керек?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "if с[i] >= с[-1-i]",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "if с[i] == с[i]",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "if с[i] != с[-1-i]",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "if с[i] <= с[-i]",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "Программадағы c айнымалысының мәні «informatica» болған кезде l айнымалысының мәні нешеге тең болады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "11",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "3",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Python тілінің мүмкіндігін пайдаланып, палиндромға тексеруді қысқаша жазуға болады. Дұрыс нұсқаны анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "if(c==c[len()-1])",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "if(c==c[:-1])",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "if(c==c[len(-1)])",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "f(c==c[::-1])",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 5,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

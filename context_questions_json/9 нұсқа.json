@@ -1,0 +1,168 @@
+{
+  "title": "9-нұсқа",
+  "description": "Информатика пәнін өткен мектепішілік жарыста оқушыларға төмендегі тапсырма берілді. 10 қабатты үйдің әр қабатында тұратын тұрғындар саны массив түрінде берілген. Массивтің алғашқы индексінде 1-қабатта тұратын адамдар саны, ал бірінші индексінде 2-қабатта тұратын тұрғындар саны т.с.с берілген. Тұратын адамдар саны ең аз болатын кез келген екі қабаттың номерін анықтайтын программа жазу қажет. Егер тұрғындар саны бірдей қабат кездессе, төменгі қабаттың номерін шығарыңыз.\n⠀⠀⠀Төменде енгізу-шығару мысалы және қатысушылардың бірі жазған программа берілген. Программаға талдау жасап, жіберілген қателерді анықта және сұрақтарға жауап бер.\n\n \nA = list(map(int, input().split()))\nthemox = A[0]\nplace1 = 0\nplace2 = 0\nfor i in range(len(A)):\n    if A[i] <= themox:\n        themox = A[i]\n        place1 = i + 1\nA.remove(themox)\nthemox = A[0]\nfor i in range(len(A)):\n    if A[i] <= themox:\n        themox = A[i]\n        place2 = i + 2\nprint(place1, place2)",
+  "context": {
+    "text": "Информатика пәнін өткен мектепішілік жарыста оқушыларға төмендегі тапсырма берілді. 10 қабатты үйдің әр қабатында тұратын тұрғындар саны массив түрінде берілген. Массивтің алғашқы индексінде 1-қабатта тұратын адамдар саны, ал бірінші индексінде 2-қабатта тұратын тұрғындар саны т.с.с берілген. Тұратын адамдар саны ең аз болатын кез келген екі қабаттың номерін анықтайтын программа жазу қажет. Егер тұрғындар саны бірдей қабат кездессе, төменгі қабаттың номерін шығарыңыз.\n⠀⠀⠀Төменде енгізу-шығару мысалы және қатысушылардың бірі жазған программа берілген. Программаға талдау жасап, жіберілген қателерді анықта және сұрақтарға жауап бер.\n\n \nA = list(map(int, input().split()))\nthemox = A[0]\nplace1 = 0\nplace2 = 0\nfor i in range(len(A)):\n    if A[i] <= themox:\n        themox = A[i]\n        place1 = i + 1\nA.remove(themox)\nthemox = A[0]\nfor i in range(len(A)):\n    if A[i] <= themox:\n        themox = A[i]\n        place2 = i + 2\nprint(place1, place2)",
+    "images": [
+      {
+        "url": "https://contextent.s3.amazonaws.com/images/f6b86a43-a618-4ae8-9dab-7a2fbeeaed2d.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "Python тілінде жолды ішкі жолдарға бос орын арқылы бөлетін әдіс қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "list()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "set()",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "split()",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "map()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 2,
+      "text": "Python тілінде элементтерді for циклін пайдаланбай өңдеуге және түрлендіруге мүмкіндік беретін кірістірілген функцияны белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "split()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "list()",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "map()",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "set()",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 3,
+      "text": "Программаға енгізу мәндері ретінде «10 12 14 6 9 8 7 1 2 5» сандары енгізілгенде алынатын нәтижені белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "7 9",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0 1",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "6 8",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "8 9",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "A.remove(themox) жолының атқаратын қызметі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "элемент өшіру",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "элементтер орнын ауыстыру",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "элемент қосу",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "элементтерді санау",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Программаға енгізу мәндері ретінде «9 8 7 4 5 6 3 2 1 0» сандары енгізілгенде алынатын нәтиже қандай болады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9 10",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "10 10",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "0 10",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1 10",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 5,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

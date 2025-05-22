@@ -1,0 +1,168 @@
+{
+  "title": "4-нұсқа",
+  "description": "Арман берілген ондық санды 8 биттік екілік кодқа ауыстыратын программа жазды. Бірақ ол жазған кодта қате жіберді де, жауап дұрыс шықпады. Арманға көмектес.",
+  "context": {
+    "text": "Арман берілген ондық санды 8 биттік екілік кодқа ауыстыратын программа жазды. Бірақ ол жазған кодта қате жіберді де, жауап дұрыс шықпады. Арманға көмектес.",
+    "images": [
+      {
+        "url": "https://contextent.s3.amazonaws.com/images/cbf4f919-4b21-413c-ad42-2d324c046f2d.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "Программа жұмыс істеуі үшін 9-жолдағы оператор қалай жазылуы керек?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "decimalToBin(x, d)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "decimalToBin(x)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "print(decimalToBin())",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "print(decimalToBin(x))",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 2,
+      "text": "x айнымалысының мәні 99 болған кездегі алынатын нәтижені көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "01100000",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "01100100",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "01100011",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "10100001",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 3,
+      "text": "Программа жұмыс істеуі үшін 3-жолдағы оператор қалай жазылуы керек?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "while k > 0 :",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "while k == 0 :",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "while true :",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "while k < 0 :",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "decimalToBin () ішкі программасы қанша параметр қабылдайды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Кодта қолданылған ішкі программаны көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "негізгі функция",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "функция",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "рекурсия",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "процедура",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 5,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

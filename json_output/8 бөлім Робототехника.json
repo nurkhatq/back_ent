@@ -1,0 +1,363 @@
+{
+  "title": "8 бөлім Робототехника",
+  "questions": [
+    {
+      "number": 1,
+      "text": "«Робот» сөзі алғаш рет қай жылы енді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1930 жыл",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1920 жыл",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "1820 жыл",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1920 жыл",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1935 жыл",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Робот бір уақытты орындайтын үш шарт –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RUN(ОРЫНДАУ), ACT (ӘРЕКЕТ), THINK (ОЙЛАУ)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "SENSE (СЕНСОР), ACT (ӘРЕКЕТ), RUN(ОРЫНДАУ)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "SENSE (СЕНСОР), ACT (ӘРЕКЕТ), THINK (ОЙЛАУ)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "ACT (ӘРЕКЕТ), THINK (ОЙЛАУ), RUN(ОРЫНДАУ)",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "RUN(ОРЫНДАУ), DO (ЖАСАУ), THINK (ОЙЛАУ)",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 3,
+      "text": "Андройд деген-",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Жануарға ұқсас робот",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Медициналық робот",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Тұрмыстық робот",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Адамға ұқсас робот",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Өндірістік робот",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "Роботтың даму тарихы неше буыннан тұрады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Үшінші буын роботтары:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Программа көмегімен басқарылатын роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Сезімтал роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ақылды роботтар",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Жасанды ми роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Техгикалық роботтар",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 6,
+      "text": "Гироскопиялық датчик дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "роботтың айналу бұрышын немесе айналу жылдамдығын өлшеуге арналған",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "сыртқы сенсорлық датчиктермен қамтылған",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "белгілі бір қатаң кодталған операцияларды орындауға арналған",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "жасанды интеллектісі бар дербес құрылғы",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "роботтың жүрген жолының қашықтығын өлшеуге арналған",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 7,
+      "text": "Екінші буын роботтары:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Программа көмегімен басқарылатын роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Сезімтал роботтар",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Ақылды роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Жасанды ми роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Техгикалық роботтар",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 8,
+      "text": "Гироско пиялық датчиктің айналу жылдамдығының  ең үлкен мәні",
+      "options": [
+        {
+          "letter": "A",
+          "text": "450 градус/секунд",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "550 градус/секунд",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "300 градус/секунд",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "250 градус/секунд",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "440 градус/секунд",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 9,
+      "text": "Суреттегі 2-номерленген ол:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Датчикті жалғау порты",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Енгізу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Жұмыс режімін таңдау.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Өлшеу деректерін енгізу.",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Шығару",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/f1b69489-3bf8-461e-9933-b9136911fb54.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 10,
+      "text": "Бірінші буын роботтары:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Программа көмегімен басқарылатын роботтар",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Сезімтал роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ақылды роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Жасанды ми роботтар",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Техникалық роботтар",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 10,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

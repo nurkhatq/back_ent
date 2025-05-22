@@ -1,0 +1,278 @@
+{
+  "title": "7 бөлім Компьютерлік графика",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Растрлық графикалық редакторды көрсет",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Photo Brush",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Corel Draw",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Adobe Illustrator",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Micrografx Designer",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Adobe Photoshop",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Векторлық графикалық редакторды көрсет",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Open Office Draw",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Corel Photo-Paint",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Photo Finish",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Open Office Image",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "GimpPortable",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Векторлық графикада сурет қалай салынады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Бояумен",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Түзу және қисық сызықтармен",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Пиксельдермен",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Түзу және шеңбермен",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Арнайы сызғыштың көмегімен",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Растрлық графикада сурет қалай салынады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Бояумен",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Түзу және қисық сызықтармен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Пиксельдермен",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Түзу және шеңбермен",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Арнайы сызғыштың көмегімен",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "Компьютерде графикалық кескіндерді, суреттер мен фотосуреттерді өңдеуге арналаған программа",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Графикалық редактор",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Цифрлық редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Мәтіндік редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Кестелік редактор",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Бейнелік редактор",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": ["A"]
+    },
+    {
+      "number": 6,
+      "text": "Векторлық графикалық редакторларды көрсет:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paint.NET",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Paint",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Corel Draw",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Draw",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Photo Finish",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "Растрлық графикалық редакторлар",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Open Office Image",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Photo Brush",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Adobe Photoshop",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Adobe Illustator",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Компас 3-D",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "Векторлық графиканың қолдану саласы?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Иллюстрациялар",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Фотосуреттер",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Сызбалар",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Суреттер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Фотография",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": ["A", "C"]
+    }
+  ],
+  "total_questions": 8,
+  "multiple_answers_allowed": true,
+  "has_images": false
+}

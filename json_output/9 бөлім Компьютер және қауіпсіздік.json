@@ -1,0 +1,280 @@
+{
+  "title": "9 бөлім Компьютер және қауіпсіздік",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Көз бен монитор экранының қашықтығы",
+      "options": [
+        {
+          "letter": "A",
+          "text": "70 см",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "60 см",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "50 см",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "40 см",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "30 см",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Ақпарат тасымалдағыштар түрлері",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Магнитті, оптикалық, флеш",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Лазерлік, оптикалық",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Флеш, мобильдік",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Магнитті, оптикалық",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Лазерлік, магниттік, оптикалық",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Монитордың жоғарғы нүктесі көздің деңгейінен орналасуы",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10-20 см",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "15-20 см",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "20-25 см",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "25-30 см",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "30-40 см",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "0 немесе 1 цифрлары көмегімен берілетін ақпараттар",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Жай ақпарат",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Күрделі ақпарат",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Аралас ақпарат",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Цифрлық ақпарат",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Кеңейтілген ақпарат",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "Компьютермен жұмыс істеу барысында вирустың бар екенін алдын ала хабарлауға негізделген программа қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "доктор программа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "фильтр программа",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "детектор программа",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "кибербуллинг",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ревизор программа",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Вирустардан белсенді әрі сенімді түрде қорғануға арналған программа қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "фильтр программа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ревизор программа",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "доктор программа",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "детектор программа",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "фишинг",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "Мәліметтердің құпиялылығын қамтамасыз етуді зерттейтін ғылымды белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "кодтау",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "криптография",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "сәйкестендіру",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "шифрлау",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "декодтау",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "Желіні пайдаланушылардың құпия мәліметтерін, логині мен құпиясөздерін ұрлайтын қауіп түрін ата.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "пошта",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "кибербуллинг",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "цифрлық бедел",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "фишинг",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "аутентификация",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    }
+  ],
+  "total_questions": 8,
+  "multiple_answers_allowed": false,
+  "has_images": false
+}

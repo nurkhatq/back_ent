@@ -1,0 +1,246 @@
+{
+  "title": "13 бөлім IT Startup",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Startup дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Кез келген жас бизнес",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Әлеуметтік желі",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Виртуалды бастама",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Интернет желісі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Операциялық жүйе",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Стартапты жасау жолы:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Идея- атау-жоба",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Идея- атау-тұжырымдама-жоба-стартап",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Атау-тұжырымдама-жоба",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Идея-тұжырымдама-жоба",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Идея- атау-тұжырымдама-өнім- стартап",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Стартаптың жұмыс моделін құру кезеңі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Прототип",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Альфа-нұсқа",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Жабық бета-нұсқа",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Ашық бета-нұсқа",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Pre-seed",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Билл Грос анықтаған стартаптың табысқа жетуіне әсер ететін негізгі факторларға не жатпайды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "қаржыландыру",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "дедлайн",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "уақыт",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "идея",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "старт",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "Startup-ты іске асырудағы алғашқы кезең қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pre-seed",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "seed",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "альфа-нұсқа",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "прототип",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жабық бета-нұсқа",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Интернет арқылы қатысушылардың көп санынан аздаған ақша қаражатын жинау жолымен жобаны қаржыландыру практикасы қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "платформа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "startup",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "краудфандинг",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "маркетинг",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "банкинг",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "Интернетте жобаны ілгерілету (жарнамалау) құралдарын белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "база",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "атқарушы құрылғылар",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "«ақылды» датчиктер",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "SEO-оңтайландыру",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "ротация",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    }
+  ],
+  "total_questions": 7,
+  "multiple_answers_allowed": false,
+  "has_images": false
+}

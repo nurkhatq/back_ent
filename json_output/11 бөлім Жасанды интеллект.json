@@ -1,0 +1,586 @@
+{
+  "title": "11 бөлім Жасанды интеллект",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Адам интеллектісінің процесін компьютерлік жүйе арқылы модельдеу–",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Шығармашылық интеллект",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Жасанды интеллект",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Ойлау процестерін иммитациялау",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Машиналық оқыту",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Нейрондық желілер",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Жасанды интеллекттің мақсаты:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Әлемді компьютер арқылы басқару",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Программа құру мен тапсырманы орындау",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Интеллектуалды орындаушыдан формалды орындаушыға айналдыру",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Формалды орындаушыдан интеллектуалды орындаушыға айналдыру",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Формалды, интеллектуалды орындаушыға айналдыру",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Білім беру саласындағы жасанды интеллект бағыты",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Прокторинг",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Мониторинг",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Электронды оқулықтар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Базалық білім беру",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Үздіксіз оқыту",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Машинелік оқыту алгоритмін құру үшін ... қолданылады",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Информатика, статистика",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Сызықтық алгебра, матрица, вектор",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Кодтар мен шифрлар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Кластерлер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Оңтайландыру теориясы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 5,
+      "text": "Жіктеу және регрессия есептерін шешу үшін қандай әдістер қолданылады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Мұғалімсіз оқыту",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Негіздеп оқыту",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Мұғаліммен оқыту",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Мұғалімнің жартылай қатысуымен оқыту",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ортамен өзара әрекеттесіп оқыту",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Регрессия салған қисық сызық қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Сызықтық",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Векторлық",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Гистограммалы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Диаграммалы",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Полиномиалды",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 7,
+      "text": "Жүйе өзі ұқсас нысандарды іздеп біріктіруі қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Классификациядау",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Кластерлеу",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Модификациялау",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Детализациялау",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Идентификациялау",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 8,
+      "text": "Бір нейронның шығысы мен екінші нейронның кірісі түйісетін жер",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Снапсис",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Нейапсис",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Сумматор",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Рефлектор",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Снепсис",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 9,
+      "text": "Нейронды желіні құрайтын нейрондар типіне қарай нешеге бөлінеді және қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4 түрге бөлінеді: аралас, бірқабатты, көпқабатты, жасырын",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2 түрге бөлінеді: біртекті, гибридті",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "2 түрге бөлінеді: аттас, көлемді",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "5 түрге бөлінеді: кіріс, шығыс, жасырын, көлемді, аралас",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "3 түрге бөлінеді: аттас, әр аттас, көлемді",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 10,
+      "text": "Нейронды желіні құрайтын нейрондардың типтерін көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "гибридті",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "көпқабатты",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "рекурентті",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "бірқабатты",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "бірбағытты",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A",
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 11,
+      "text": "Мұғалімсіз машиналық оқыту міндеттеріне не жатады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "регрессия",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "жалпылау",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "классификация",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "кластерлеу",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "ассоциация",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "B",
+        "D",
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 12,
+      "text": "Нейрондық желіні белсендіру функциясы ретінде(-gut) қызмет ете алатын функцияны көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "логарифмдік функция",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "қадамдық функция",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "параболалық функция",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "логистикалық функци",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "сигмоидтық функция",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "B",
+        "D",
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 13,
+      "text": "Нейрондық желілерді қолдану арқылы шешілетін негізгі  тапсырмаларға жататын нұсқаны белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "бақылау",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "тану",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "болжау",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "есте сақтау",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "жіктеу",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "B",
+        "C",
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 14,
+      "text": "Мұғалімсіз, машиналық оқытуда қолданылатын машинаның белгісіз заңдылықтарды өз бетінше анықтау әрекеттері қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "жалпылау",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "қорыту",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "кластерлеу",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "жіктеу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ассоциация",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "A",
+        "C",
+        "E"
+      ],
+      "images": []
+    },
+    {
+      "number": 15,
+      "text": "Нейронның шығуы қайтадан кіру жолына берілетін жасанды нейрондық желілер қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "тікелей таралу желілері",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ассоциативтік",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "радиалды базистік",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "кері байланысты желілер",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "жанама таралу желілері",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 16,
+      "text": "Рекуррентті нейрондық желілердің негізгі ерекшелігі қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Тек алдыңғы қабаттың шығысын пайдаланады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Деректерді тек бір бағытта өңдейді",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Алдыңғы жағдайдың (state) ақпаратын есте сақтайды",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Барлық нейрондары өзара толық байланысқан",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Тек кескіндерді өңдеуге қолданылады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    }
+  ],
+  "total_questions": 16,
+  "multiple_answers_allowed": true,
+  "has_images": true
+}

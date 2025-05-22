@@ -1,0 +1,563 @@
+{
+  "title": "5 бөлім Ақпараттық процестер мен жүйелер",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Деректердің арасындағы байланыстарды ұйымдастыру түрлері:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Иерархиялық, желілік, реляциялық",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Иерархиялық, дербес, тізбектелген",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Сақина, шина, жұлдызша тәріздес",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Желілік, графиктік",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Кестелік, абсолюттік, салыстырмалы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Кесте түрінде ұйымдастырылған деректер қоры",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Дербес",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Реляциялық",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Графиктік",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Желілік",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Абсолюттік",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Деректер қорындағы кестенің жолдары қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Баған",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Жазба",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Өріс",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Ұяшық",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Дерек",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Кестенің атрубуттарын көрсетіңіз",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Id, аты",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Id",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Аты",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1 2 3",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Арман",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/728e336e-9c9f-464f-92bf-3b8d5f540790.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "text": "Берілген кестедегі кортеж саны нешеу?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "8",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+        {
+          "url": "https://enttrainer.s3.amazonaws.com/images/728e336e-9c9f-464f-92bf-3b8d5f540790.png",
+          "type": "image/png"
+        } 
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Әрбір жазбаның жеке мәнін бере алатын өрістер қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Атауы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Мәні",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Коды",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Негізгі кілт",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Бастапқы мән",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 7,
+      "text": "Негізгі кілт болатын мәндер",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Id",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Id, аты",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Аты",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1 2 3",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Арман",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/728e336e-9c9f-464f-92bf-3b8d5f540790.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 8,
+      "text": "ДҚ кестелер арасындағы байланыстың неше түрі бар?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "8",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 9,
+      "text": "Өзара байланысты мәліметтер жиынтығы қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "мәтіндік файл",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "мәліметтер қоры",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "электрондық кесте",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "басқарушылық ақпарат жүйесі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "жазбалар",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 10,
+      "text": "«Оқушылар» реляциялық мәліметтер қорында орналасқан кестенің бір бөлігі көрсетілген. Өріс пен жазба санын анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4 және 3",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "5 және 4",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3 және 5",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "5 және 2",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "2 және 5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/2e112d27-444b-4d9d-a42d-01c30d208d42.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 11,
+      "text": "«LastName» өрісінде «Arlan» мәнін «Students» кестесіне енгізу үшін SQL сұратуы қай түрде болуы керек?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "INSERT ('Arlan') INTO Students (LastName)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "INSERT INTO Students (LastName) VALUES ('Arlan')",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "INSERT INTO Students ('Arlan') INTO LastName",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "INSERT INTO Students ('Arlan') VALUES LastName",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "INSERT INTO Students ('Arlan') IN LastName",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 13,
+      "text": "Төмендегі нәтижені алу үшін жазылған сұратуды анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SELECT * FROM team WHERE basic_language = 'Python' OR basic_language = 'PHP' AND level = 'middle'",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "SELECT * FROM team WHERE basic_language = 'Python' AND basic_language = 'PHP' SELECT * FROM team WHERE basic_language = 'Python' OR basic_language = 'PHP'",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "SELECT * FROM team WHERE (basic_language = 'Python' OR basic_language = 'PHP') AND level = 'middle'",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "SELECT * FROM team WHERE basic_language = 'Python' OR basic_language = 'PHP' AND level = 'middle'",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "SELECT * FROM team WHERE basic_language = 'Python' AND basic_language = 'PHP' SELECT * FROM WHERE basic_language = 'Python' AND basic_language = 'PHP'",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": [
+      {
+        "url": "https://enttrainer.s3.amazonaws.com/images/dff41a03-37dd-4c68-bbf3-aefef3fb6dda.png",
+        "type": "image/png"
+      } 
+    ]
+    },
+    {
+      "number": 14,
+      "text": "«Countries» кестесінен ID=8 болатын елден басқасының бәрін экранға шығаратын сұратуды белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SELECT ALL FROM Countries 8",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "SELECT * FROM Countries EXP ID==8",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "SELECT ALL FROM Countries LIMIT = 8",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "SELECT * FROM Countries WHERE ID !=8",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "SELECT ALL FROM Countries = 8",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 15,
+      "text": "SQL көмегімен «Persons» кестесінен бағанының мәні «FirstName» және мәні «Peter» деп аталатын жазбаларды таңдауға арналған сұратуды көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SELECT * FROM Persons WHERE FirstName='Peter'",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "SELECT * FROM Persons WHERE FirstName<>'Peter'",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "SELECT [all] FROM Persons WHERE FirstName='Peter'",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "SELECT * FROM Persons WHERE FirstName*'Peter*",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": ["A"],
+      "images": []
+    },
+    {
+      "number": 16,
+      "text": "«Users» кестесіне жазылған сұратудың нәтижесін анықта.  ORDER BY birthday",
+      "options": [
+        {
+          "letter": "A",
+          "text": "аты-жөні бойынша кему ретімен орналастырылған 6 жазба",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "аты-жөні және туған күні бойынша сұрыпталған 6 жазба",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "1997 жылы туған 6 қолданушының ретімен орналастырылған тізімі",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "аты-жөні бойынша өсу ретімен орналастырылған 6 жазба",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "жасы 18-ге толған және кішісінен үлкеніне қарай ретімен орналастырылған 6 қолданушының тізімі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/bb9b7681-7fc3-4b8c-b7c8-345b8afda805.png",
+        "type": "image/png"
+      }]
+    }
+  ],
+  "total_questions": 16,
+  "multiple_answers_allowed": true,
+  "has_images": true
+}

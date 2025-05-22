@@ -1,0 +1,960 @@
+{
+  "title": "6 бөлім Ақпараттық объектілерді құру және түрлендіру",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Виртуалды шындық дегеніміз –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Шынайылықтың компьютерлік моделі",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Шынайы өмірдегі процесстер",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Компьютер арқылы шындықты тексеру",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Шынайылықтың виртуалды моделі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жасанды өмір сүру моделі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Кеңейтілген шындық дегеніміз –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Шынайылықтың көптеген түрлерін жинақтау",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Кеңейтілген модельдердің компьютерлік макеті",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Бар шынайылықты компьютермен модельденген жақсарту",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Шынайылықты компьютер арқылы жасандылыққа айналдыру",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Виртуалды шындықтың кеңейтілген түрі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Виртуалды шындық терминін қолданысқа енгізген ғалым",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Давид Витрум",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Том Коделл",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ф.Кишино",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Джарон Ланье",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Р. Мильгрэм",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "1994 жылы қандай шынайылық моделі ұсынылды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Толық шынайылық",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Аралас шынайылық",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Кеңейтілген шынайылық",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Виртуалды шынайылық",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Кірістірілген шынайылық",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "3D панорама дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3D элементері бар фотосурет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Қарапайым сурет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Панорамалық фотосуреттің бір түрі",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Шолу жасау ауқымы үлкен сурет",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Сфераға немесе кубқа проекцияланаған панорамалы фотосурет",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Бірнеше панорамалық фотосуреттің жиынтығы -",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Виртуалды тур",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "3D панорама",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Кеңейтілген шындық",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Гибридті шындық",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Виртуалды әлем",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "Компьютерде басқа компьютерді оған орнатылған параметрлерімен эмуляциялайтын программалық қамтамасыз ету –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Виртуалды ОЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Виртуалды терезе",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Витруалды машине",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Гипервизор",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Шынайы машине",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "Бір тақырып бойынша біріктірілген және гиперсілтемелер бойынша байланыстырылған құжаттар жиынтығы",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Web- сайт",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Web- парақ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Web- ресурс",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Web- сілтеме",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Web-беттер",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 9,
+      "text": "HTML –де барлық құжат қандай тегпен басталады",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<head>…</head>",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "<title>…</ title >",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<html>…</html>",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "<body>…</body >",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<href>…</href >",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 10,
+      "text": "HTML – де <H1></H1> тегтерінің қызметі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Қатардың аяқталуы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Төменгі индекс",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Жоғары индекс",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Маркерленген тізім",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Тақырыптың өлшемі",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ]
+    },
+    {
+      "number": 11,
+      "text": "Абзац тегі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<h2>…</h2>",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "<P>…</P>",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "<ul>…</ul>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "<ol>…</ol>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<dt>…</dt>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 12,
+      "text": "HTML- құжатына сурет қосу",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<IMG SSC= “picture.gif”>",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "<IMG SRO= “picture.gif”>",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<LMG SRC= “picture.gif”>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "<IMC SRC= “picture.gif”>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<IMG SRC= “picture.gif”>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "E"
+      ]
+    },
+    {
+      "number": 13,
+      "text": "Фондық сурет қою",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Align",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Border",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Background",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Height",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Vspace",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 14,
+      "text": "Каскадтық стильді кестелер",
+      "options": [
+        {
+          "letter": "A",
+          "text": "XHtml",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "CSS",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Html",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "SSC",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "CCS",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 15,
+      "text": "CSS-те элемент фонының түсін өзгерту үшін қай сипат қолданылады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "style-color",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "background-color",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "class-color",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "bgcolor=color",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "font-color",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 16,
+      "text": "Жұбы жоқ тегті анықтаңыз.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<HR>",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "<I>",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<DL>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "<Ul>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<br>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 17,
+      "text": "Кестедегі баған мен қатар тақырыптарын анықтайтын дескриптор",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<th>, </th>",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "<tr>, </tr>",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<tl>, </tl>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "<td>, </td>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<t>, </t>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 18,
+      "text": "Қаралған сілтемелер түсін белгілейтін атрибут",
+      "options": [
+        {
+          "letter": "A",
+          "text": "link",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "dlink",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "alink",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "vlink",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "ling",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 19,
+      "text": "<BGSOUND src=“duet.mid”> тегінің атқаратын жұмысы",
+      "options": [
+        {
+          "letter": "A",
+          "text": "duet.mid файлының ойнатылмауын тағайындайды",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "duet.mid файлының бір реттік ойнатылуын тағайындайды",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "duet.mid файлының неше рет ойнатылғанын анықтайды",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "duet.mid файлының шексіз ойнатылуын тағайындайды",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "duet.mid файлының тоқтатылуын тағайындайды",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 20,
+      "text": "Мәтінді төменгі индекс түрінде шығаратын тег",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<SUP>, </SUP>",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "<SUV>, </SUV>",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<SUB>, </SUB>",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "<S>, </S>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<SР>, </SР>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 21,
+      "text": "Сыртқы стильдер кестесіне сілтеме жасау үшін дұрыс HTML кодын көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "<stylesheet>mystyle.css</stylesheet>",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<style>mystyle.html</stylesheet>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "<style src=\"mystyle.css\">",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<style>style.html</stylesheet>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 22,
+      "text": "Кестенің ұяшығын тігінен теңестіруді қандай атрибут анықтайды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "height",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "nowrap",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "valign",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "allign",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "weight",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 23,
+      "text": "Жазбалардың қайсысы басқа  web- параққа гиперсілтемені ұйымдастырады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<a   href =http://www.zero.kz  сілтеме </a>",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "<a   href = link.jpg> сілтеме  </a>",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<f   href = http://www.zero.kz сілтеме </f>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "<a  href = «кітап» > </a>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<a  href : «кітап» > </a>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 24,
+      "text": "Ішкі стильдер кестесін анықтау үшін қандай HTML тегі қолданылады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "<body>",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "<style>",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "<script>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "<css>",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "<instyle>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 25,
+      "text": "Кесте бағандарының біріктірілуін қандай тег анықтайды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rowspan",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "border",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "cellspacing",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "summary",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "connecting",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 26,
+      "text": "Гиперсілтемелерді құрған кезде міндетті түрде қандай атрибут қажет?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "href",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "<jpg></jpg>",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "<a></a>",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Link",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "def",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 27,
+      "text": "<BR> тегінің атқаратын жұмысын белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "сызық мәніне қарай тураланады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "жаңа жолға өтеді",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "сызықтың енін орнатады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "горизонталь сызық сызады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "вертикаль сызық сызады",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 28,
+      "text": "Коммерциялық ұйымдарға байланысты доменді белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": ".info",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": ".org",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": ".edu",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": ".com",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": ".fox",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    }
+  ],
+  "total_questions": 28,
+  "multiple_answers_allowed": true,
+  "has_images": false
+}

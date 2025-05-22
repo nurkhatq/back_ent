@@ -1,0 +1,557 @@
+{
+  "title": "14 бөлім Цифрлық сауаттылық",
+  "questions": [
+    {
+      "number": 1,
+      "text": "«Цифрлық Қазақстан» мемлекеттік бағдарламасы қашан қабылданды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2017 жылы 12 желтоқсан",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2018 жылы 12 желтоқсан",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2019 жылы 30 тамыз",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2017 жылы 17 наурыз",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2018 жылы 19 желтоқсан",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Блокчейн дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Цифрлық технологияларды қолдану",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Деректер құрылымдау тәсілі",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Сұраныстарды реттеу тәсілі",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Мәліметтерді сұрыптау",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Бөлшектенген деректер құру тәсілі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Қазақстанда электронды цифрлық қолтаңба(ЭЦҚ) қай жылы енгізілді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2008",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2018",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "2009",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2010",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2012",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Электронды цифрлық қолтаңбаны пайдалану",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ақпаратты электронды цифрлық нұсқада ұсыну",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Өз қолымен қойған қолтаңбаны толығымен ауыстыру",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Электронды құжаттар құру",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Электронды үкімет порталына тіркелу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ақпаратты векторлық нұсқада ұсыну",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "RSA сертификаттының қызметі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Электорндық құжатқа қол қою",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "ЭЦҚ-ның түпнұсқалығын тексеру",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Электрондық сауда – саттыққа қатысуға мүмкіндік береді",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Цифрлық технологияларды қолдану аясын кеңейтуге мүмкіндік береді",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Ақпаратты электронды цифрлық нұсқада ұсыну",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "Электронды үкімет порталының негізгі артықшылығы",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Алғашқы медициналық-санитарлық көмек көрсететін медициналық мекемеге тіркелу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Дәрігердің қабылдануына жазылу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ҚР билігіне тікелей қолжеткізу",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Мұрағаттық анықтамалар алу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Электронды үкімет порталына тіркелу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "Электронды қолтаңба алу және қолдану үшін компьютерде орнатылу керек",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MS Word",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "MS Excel",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "NCALayer",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Yandex",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Google",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "ЭЦҚ қанша уақытқа беріледі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 ай",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 жыл",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "2 жыл",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "6 ай",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "3 ай",
+          "is_correct": false
+        },
+        {
+          "letter": "F",
+          "text": "2 ай",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 9,
+      "text": "Бірегей жұмыс ұстанымы бар, деректерді және осы деректерді өңдеу туралы ақпаратты сақтау технологиясы қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "биткоин",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "блокчейн",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "хэш-функция",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "криптография",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "краудфандинг",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 10,
+      "text": "Кез келген ұйым үшін Blockchain технологиясының үш артықшылығы бар. Олар қандай артықшылықтар?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "қолжетімділік, ашықтық, қорғалғандық",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "қорғалғандық, біртұтастық, беріктік",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "сапа, уақыт, жылдамдық",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "қауіпсіздік, қашықтық, қорғалғандық",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "жылдамдық, біртұтастық, сапа",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 11,
+      "text": "ашық толықтырылған деректер  қоры",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ресми Blockchain",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "ашық Blockchain",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "бірегей Blockchain",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "жабық Blockchain",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "бейтарап Blockchain",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 12,
+      "text": "Ресми Blockchain сипаты",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Бұл жүйе ішіне криптографиялық формада ұсынылады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Әрбір қатысушы мәліметті жаза да, оқи да алады",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Мәліметті жазу мен оқу барысында белгілі бір шектеу қояды",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Эксклюзивті Blockchain болуында",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жабық ортадағы Blockchain болуында",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 13,
+      "text": "Бұл жүйе криптографиялық формада ұсынылған аударымдар, мәмілелер мен келісімшарттар туралы деректер",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Серверлер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Деректер қоры",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Тізбектер",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Блоктар",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Кестелер",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 14,
+      "text": "Мәміле желіге беріледі, блокқа жиналады, әрбір блок нөмірленеді. Blockchain жұмысының нешінші қадамы?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 15,
+      "text": "А ақшаны В-ға аударғысы келеді. Blockchain жұмысының нешінші қадамы?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 16,
+      "text": "Блоктар тексеру үшін жүйенің барлық қатысушыларына таратылады. Blockchain жұмысының нешінші қадамы?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    }
+  ],
+  "total_questions": 16,
+  "multiple_answers_allowed": true,
+  "has_images": false
+}

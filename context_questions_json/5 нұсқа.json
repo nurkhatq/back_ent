@@ -1,0 +1,168 @@
+{
+  "title": "5-нұсқа",
+  "description": "Тоқсандық жиынтық бағалауда Мансұрға алғашқы 10 Фибоначчи қатарының элементтерін экранға шығаратын программа жазуға тапсырма берілді. Мансұр тек n-ші Фибоначчи санын экранға шығаратын программа жаза алды және кодта бірнеше қате жіберді. Мансұрға көмектес. \n⠀⠀⠀Фибоначчи қатарын есептеу формуласы:",
+  "context": {
+    "text": "Тоқсандық жиынтық бағалауда Мансұрға алғашқы 10 Фибоначчи қатарының элементтерін экранға шығаратын программа жазуға тапсырма берілді. Мансұр тек n-ші Фибоначчи санын экранға шығаратын программа жаза алды және кодта бірнеше қате жіберді. Мансұрға көмектес. \n⠀⠀⠀Фибоначчи қатарын есептеу формуласы:",
+    "images": [
+      {
+        "url": "https://contextent.s3.amazonaws.com/images/07bcf660-fd49-4049-ab81-696c02f22d04.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "Кодта жазылған ішкі программа түрін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "негізгі функция",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "рекурсия",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "функция",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "процедура",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 2,
+      "text": "2-жолда кеткен қатені қалай түзету керек?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "if n==1 or n==2",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "if n==1 and n!=2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "if n!=1 and  n==2",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "if n!=1 or n==2",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 3,
+      "text": "Ішкі программаны шақырудың дұрыс нұсқасын тап.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "print()",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "f(7)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "print (f(7))",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "def f (n)",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "Ішкі программадағы n айнымалысының мәні 7-ге тең болғанда алынатын нәтижені анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "21",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "8",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "13",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Фибоначчи қатарының алғашқы 10 санын экранға шығару үшін негізгі программаға қандай код жазылуға тиіс?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "if i > 1 and I < 10",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "while i != 10",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "print(f(10))",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "if i > 1 and I <= 10",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 5,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

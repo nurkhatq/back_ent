@@ -1,0 +1,168 @@
+{
+  "title": "8-нұсқа",
+  "description": "Кірістірілген цикл тақырыбы бойынша жүргізілген жиынтық бағалауда мұғалім оқушыларға келесідей тапсырма берді. Берілген сандар қатарының мәнін есептейтін программа жазу қажет:  \n1! + 2! + …+n!",
+  "context": {
+    "text": "Кірістірілген цикл тақырыбы бойынша жүргізілген жиынтық бағалауда мұғалім оқушыларға келесідей тапсырма берді. Берілген сандар қатарының мәнін есептейтін программа жазу қажет:  \n1! + 2! + …+n!",
+    "images": [
+      
+    ]
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "Төменде оқушылардың бірі жазған программаның коды берілген. Программада кеткен қателерді анықтап, кодты дұрыс жазуға көмектес.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [{
+        "url": "https://contextent.s3.amazonaws.com/images/18ec1868-7283-42fe-9188-4c0205deaed0.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 2,
+      "text": "Программадағы n айнымалысының мәні 5 болғанда алынатын нәтижені анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "199",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "351",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "213",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "153",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 3,
+      "text": "Программадағы n айнымалысының мәні 3 болғанда алынатын нәтижені анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "18",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "9",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "13",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "27",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "Сандар қатарының қосындысын дұрыс есептейтін программа нұсқасын тап.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "n = int(input())\ns = 1\nfor i in range(1, n + 1):\n    p = 1\n    for k in range(1, n + 1):\n       p = p + k\n       s =s + p\nprint(s)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "n = int(input())\ns = 0\nfor i in range(1, n + 1):\n    p = 1\n    for k in range(1, i + 1):\n       p = p * k\n       s =s + p\nprint(s)\nC.\nn = int(input())\ns = 0\nfor i in range(1, n + 1):\n    p = 1\n    for k in range(1, i + 1):\n       p = p * k\n       s =s + p\nprint(s)**",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "n = int(input())\ns = 0\nfor i in range(1, n + 1):\n    p = 1\n    for k in range(1, i + 1):\n       p = p * k\n       s =s + p\nprint(s)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "n = int(input())\ns = 1\nfor i in range(1, n + 1):\n    p = 1\n    for k in range(1, n + 1):\n       p = p + k\n       s =s + p\nprint(s)",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Программаның дұрыс нұсқасы таңдап алынғаннан кейін, n айнымалысының мәні 6-ға тең болғанда алынатын нәтижені анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "33",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "47",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "46",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "34",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 5,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}

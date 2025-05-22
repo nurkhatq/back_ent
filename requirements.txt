@@ -1,0 +1,9 @@
+# Добавить к существующим зависимостям
+djangorestframework==3.14.0
+django-storages==1.13.2
+boto3==1.26.137
+psycopg2-binary==2.9.6  # Исправлена опечатка
+python-docx==0.8.11
+Pillow==9.5.0  # для работы с изображениями
+beautifulsoup4==4.12.0  # для работы с HTML
+django-cors-headers==4.0.0

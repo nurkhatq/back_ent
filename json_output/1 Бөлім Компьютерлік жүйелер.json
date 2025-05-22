@@ -1,0 +1,1187 @@
+{
+  "title": "1 Бөлім Компьютерлік жүйелер",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Компьютерлік эргономика деген не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "еңбек өнімділігін арттыру мен ыңғайсыздықты жою мақсатында жұмыс орнын дұрыс ұйымдастыру жайлы ғылым",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "материалдық игіліктерді өндіру, айырбастау, бөлу және тұтыну үрдісі кезінде адамдар арасында пайда болатын өндірістік қатынастар туралы ғылым",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "адам денсаулығын сақтау және түзетуге бағытталған ғылым",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "қоршаған ортаны қорғау туралы ғылым",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "компьютерлік құрылғыларды адамдардың пайдалану ережелерін ұйымдастыру жайлы ғылым",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Есептеу техникасының даму тарихы неше буыннан тұрады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "2",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Бірінші буын компьютерлері қандай?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Транзисторлар",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ЕNIAC",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Интегралды схемалар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Дербес компьютерлер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Аналитикалық машина",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 4,
+      "text": "Дүниежүзіндегі бірінші программалаушы кім?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ада Лавлейс",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Джон Атанасов",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Билл Гейтс",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Стиф Джобс",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Блез Паскаль",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "III буын компьютерлері қай жылдарды қамтиды?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1940-1946 жж.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1955-1964 жж.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1965-1974 жж.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "1946-1954 жж.",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1975-2024 жж.",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 6,
+      "text": "Аналық тақша:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ақпаратты өңдеуге арналған компьютердің «миы»",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "компьютердің ішкі құрылғыларын бір-біріне байланыстыратын шиналар орналасқан тақша",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "процессормен тiкелей байланысты деректерді жазуға, оқуға және сақтауға арналған тақша",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "компьютермен жұмыс істеу кезінде деректер мен программаларды уақытша сақтайды",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ақпаратты жинау, сақтау, өңдеу және таратуға арналған құрылғы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 7,
+      "text": "Деректерді жазуға, оқуға және сақтауға арналған шағын көлемді – жылдам сақтау құрылғысы:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Аналық тақша",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Қатқыл диск",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Жедел жад",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Бейнеадаптер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Дыбыстық адаптер",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 8,
+      "text": "Қатқыл диск құрылғысының қызметі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "деректерді қысқа уақыт сақтауға арналған",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "деректерді ұзақ уақыт сақтауға арналған",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "ішкі құрылғыларды бір-біріне байланыстырады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "компьютерлерді желі арқылы бір-бірімен баайланыстыру",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "тасымалдағыштан ақпаратты оқу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 9,
+      "text": "Процессордың басты сипаттамасы:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Жылдамдығы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Разрядтылығы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Шапшаңдығы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Тактілік жиілігі",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Сапасы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 10,
+      "text": "Жүйелік шина құрылымын көрсетіңіз?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Деректер шинасы, адрестік шина",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Деректер шинасы және басқару шинасы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Деректер шинасы, адрестік шина, басқару",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Деректер шинасы, желілік шина, адрестік шина",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Адрестік шина, салыстырмалы шина, абсолюттік шина",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 11,
+      "text": "Компьютердің ішкі жадына:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Жедел, тұрақты, кэш-жады",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Магниттік дискілер, винчестер",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Флэш-жады, дискеттер",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Оптикалық дискілер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Қатты диск, иілгіш диск",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 12,
+      "text": "Компьютер архитектурасы дегеніміз не?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "компьютердің құрылғылары",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "компьютердің макеті",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "компьютердің қызметтік сызбасы",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Компьютер ақпаратты қалай өңдеуі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Компьютер аппараттық сызбасы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 13,
+      "text": "Компьютердің аналық тақшасында орналасқан электрондық құрылғы қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "порт",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "шина",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "драйвер",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "буфер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "регистр",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 14,
+      "text": "Компьютерге дыбысты енгізуге әрі тыңдауға ...... арқылы болады",
+      "options": [
+        {
+          "letter": "A",
+          "text": "бейнеадаптер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "дыбыстық адаптер",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "динамик",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "қатқыл диск",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "процессор",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 15,
+      "text": "Компьютердегі барлық құрылғылар арасында өзара ақпарат алмасуды ұйымдастыратын құрылғыны атаңыз?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Сыртқы жады",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ішкі жады",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Контроллерлер",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Магистраль",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Желілік карта",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 16,
+      "text": "Компьютер жады қандай екі үлкен топқа бөлінеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RAM және ROM",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ішкі және сыртқы жады",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "жедел және тұрақты жады",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "кэш және бейне жады",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "дербес және қосалқы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 17,
+      "text": "Процессордың бір секундта орындайтын әрекетінің саны қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "регистрлер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "тактілік жиілік",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "разрядтылық",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "адрестік кеңістік",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "жылдамдық",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 18,
+      "text": "Қайсысы арифметикалық-логикалық құрылғының (АЛҚ) құрамдас бөлігі?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "кэш жадының",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "қатты дискінің",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "процессордың",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "монитордың",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "желілік картаның",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 19,
+      "text": "Төмендегі логикалық схемаға сәйкес, ең соңынан қай логикалық амал орындалады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "импликация",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "дизъюнкция",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "инверсия",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "конъюнкция",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "индикация",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/4ccf65b2-1e7d-42ce-9265-c8cd2bb67334.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 20,
+      "text": "Төмендегі ақиқат кестесі қандай логикалық операцияға сәйкес келетінін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "эквиваленттік",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "конъюнкция",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "дизъюнкция",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "импликация",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "инверсия",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [{
+        "url": "https://enttrainer.s3.amazonaws.com/images/7a1497dd-852c-4fac-a2c8-7f128c63a511.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 21,
+      "text": "Желінің жалпы мәлімет тасымалдау ортасын бөліктерге бөліп, келіп түскен мәліметті басқа сегменттерге тек адресіне байланысты жөнелтіп отыратын құрылғы қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "коммутатор",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "шлюз",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "концентратор",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "трафик",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "маршрутизатор",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 22,
+      "text": "Компьютердің базалық конфигурациясы бұл:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "компьютерде жұмыс істеу үшін жеткілікті құралдардың ең көп жиынтығы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "компьютерге енетін белгілі бір міндеттерді шешуді қамтамасыз ететін функционалдық құрылғылар мен жүйелік ресурстардың сипаттамалары",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "компьютерде жұмыс істеу үшін жеткілікті аппараттық және программалық құралдардың ең аз жиынтығы",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "дербес компьютердің немесе ойын приставкасының графиканы бейнелеу үшін қолданылатын жеке құрылғысы",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "компьютерде жұмыс істеу үшін желіге қосатын құралдардың  жиынтығы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 23,
+      "text": "Деректерді жіберуге немесе қабылдауға қабілетті өзара байланысқан есептеу құрылғыларының тобы қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "интернет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "компьютерлік желі",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "сымсыз желі",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "байланыс арнасы",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "WI-FI",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": []
+    },
+    {
+      "number": 24,
+      "text": "Ақпаратты өңдейтін және компьютердің барлық құрылғысының жұмысын үйлестіретін микросхема қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "тактілік жиілік",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "регистр",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "процессор",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "адрестік кеңістік",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "разрядтылық",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 25,
+      "text": "Бірнеше сегментті біріктіруге арналған құрылғыны көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "роутер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "желілік түйін",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "коммутатор",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "модем",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "маршрутизатор",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    },
+    {
+      "number": 26,
+      "text": "Компьютерлердің бір-бірімен геометриялық байланысу әдісі қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "желілік топология",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "сымды байланыс желілері",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "аймақтық желі",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ведомстволық желі",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "сымсыз желі",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 27,
+      "text": "Регистрлерден, тиісті логикалық схемалары бар қосындылағыштан және орындалатын процесті басқару элементінен тұратын құрылғыны көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "әмбебап регистрлер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "жады регистрі",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "басқару құрылғысы",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "арифметикалық-логикалық құрылғы",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "дербес регистрлер",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 28,
+      "text": "Сыртқы жады туралы барлық дұрыс мәліметті белгіле.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ішкі жадыға қарағанда көлемі үлкен ақпарат тасымалдаушы мен контроллерді қамтиды",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "ішкі жадыға қарағанда жылдамырақ қазір орындалатын программаны және ол өңдейтін деректерді сақтайды",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "жады ұяшығына оның мекенжайы бойынша қол жеткізуге болады",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ұяшықтардың ғана бүкіл блогын оқуға және жазуға болады",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "жады ұяшығына оның мәнін меншіктейді",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A",
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "number": 29,
+      "text": "Заманауи дербес компьютерлердің тұрақты есте сақтау құрылғысында қандай программалар сақталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "электрондық кестелер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "утилиталар",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "графикалық редакторлар",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "компьютерді бастапқы жүктеуге арналған программалар",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "компьютерді сынауға арналған программалар",
+          "is_correct": true
+        },
+        {
+          "letter": "F",
+          "text": "стандартты сыртқы құрылғылармен дерек алмасу программалары",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D",
+        "E",
+        "F"
+      ],
+      "images": []
+    },
+    {
+      "number": 30,
+      "text": "Компьютер желілері ақпарат тарату ортасына қарай қандай түрге бөлінеді?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "аймақтық желілер",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ауқымды желілер",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "мемлекеттік желілер",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "сымсыз байланыс желілері",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "ведомстволық желілер",
+          "is_correct": false
+        },
+        {
+          "letter": "F",
+          "text": "сымды байланыс желілері",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D",
+        "F"
+      ],
+      "images": []
+    },
+    {
+      "number": 31,
+      "text": "Жұмыс жасап тұрған компьютердің конфигурациясын тексеру командасы:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Пуск-Все программы-Стандартные-Служебные-Сведения о системе",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Пуск-Все программы -Служебные-Сведения о системе",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Пуск-Все программы-Стандартные-Служебные-Сведения о конфигурации",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Пуск-Все программы-Стандартные-Сведения о системе",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Пуск-Все программы -Служебные-Сведения о системе",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 32,
+      "text": "Белгілі бір тапсырманы орындауға бағытталған арнайы программалық жасақтама қалай аталады?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "қолданбалы ПЖ",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "дербес ПЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "қызметтік ПЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "базалық ПЖ",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "сервистік ПЖ",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 33,
+      "text": "BIOS (Basic Input/Output System) –",
+      "options": [
+        {
+          "letter": "A",
+          "text": "белгілі бір тапсырманы орындауға бағытталған арнайы программа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "функционалдық мақсат пен талаптарға сәйкес пайдаланушылар үшін өнімнің пайдалылығын анықтайтын қасиеттер жиынтығы.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "аналық тақшаға орнатылған, компьютерге жалғанған құрылғыларды басқаруға, олардың жұмысын тексеруге арналған программа.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "компьютерлер, есептеу желілерінің жұмысын қамтамасыз ететін программалық пакеттер жиынтығы.",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ішкі жадыға қарағанда көлемі үлкен ақпарат тасымалдаушы мен контроллерді қамтиды",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "images": []
+    }
+  ],
+  "total_questions": 33,
+  "multiple_answers_allowed": true,
+  "has_images": true
+}

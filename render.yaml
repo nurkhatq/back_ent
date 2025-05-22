@@ -1,0 +1,38 @@
+services:
+  # PostgreSQL Database
+  - type: pserv
+    name: ent-trainer-postgres
+    plan: free
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: ./Dockerfile.postgres
+
+  # Django Web Service  
+  - type: web
+    name: ent-trainer-web
+    plan: free
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: POSTGRES_DB
+        value: ent_db
+      - key: POSTGRES_USER  
+        value: ent_user
+      - key: POSTGRES_PASSWORD
+        value: ent_password
+      - key: POSTGRES_HOST
+        fromService:
+          type: pserv
+          name: ent-trainer-postgres
+          property: host
+      - key: POSTGRES_PORT
+        value: "5432"
+      - key: AWS_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_SECRET_ACCESS_KEY
+        sync: false
+      - key: AWS_STORAGE_BUCKET_NAME
+        value: enttrainer
+      - key: AWS_S3_REGION_NAME
+        value: eu-north-1

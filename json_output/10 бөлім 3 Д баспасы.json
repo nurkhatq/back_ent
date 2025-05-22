@@ -1,0 +1,280 @@
+{
+  "title": "10 бөлім 3 Д баспасы",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Монитордың айыру қабілеті дегеніміз-",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Монитор экранындағы кескінді құрайтын суреттер жалпы саны",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Монитор экранындағы кескінді құрайтын векторлардың жалпы саны",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Монитор экранындағы кескінді құрайтын пиксельдердің жалпы саны",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Монитор экранындағы кескіндердің жалпы саны",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Монитор экранын құрайтын  құрылғы",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "3D – модельдеудің ең алғашқы, негізгі кезеңі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Мониторинг",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Панорамалау",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Детализация",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Модельдеу",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Макетін жасау",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "SketchUp қай фирманың өнімі",
+      "options": [
+        {
+          "letter": "A",
+          "text": "@Last Software",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Dell",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Accenture",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Synnex",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "@Cisco",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "Cызбаларды 3D-ға өткізетін негізгі құрал:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Классификация",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Модификация",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Детализация",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Экранизация",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Компоненттеу",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "SketchUp 8 программасын іске қосу үшін:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Пуск-Все программы- Стандартные - SketchUp",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Пуск- Программы- Стандартные - SketchUp",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Пуск-Все программы- Доступные - SketchUp",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Пуск-Все программы- SketchUp",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Пуск-Все программы- Стандартные –Дополнительные- SketchUp",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "SketchUp программасындағы негізгі құралдарды көрсет:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Таңдау, Компонент, Палитра, Өшіргіш",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Сызық, Шеңбер, Доға, Қолмен сызу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Төмен, Айналдыру, Итеру",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Контур, Масштабтау",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Жылжыту, Тарту",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "SketchUp 8 програмасының кеңейтілімі:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "*.skyp",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "*.skup",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "*.sup",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "*.skp",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "*.sktp",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "3D приинтерің «сиясы»",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Палитра",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Фломент",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Филамент",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Слайсер",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Колер",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ]
+    }
+  ],
+  "total_questions": 8,
+  "multiple_answers_allowed": true,
+  "has_images": false
+}

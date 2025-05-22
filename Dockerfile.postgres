@@ -1,0 +1,7 @@
+FROM postgres:14
+
+ENV POSTGRES_DB=ent_db
+ENV POSTGRES_USER=ent_user  
+ENV POSTGRES_PASSWORD=ent_password
+
+EXPOSE 5432

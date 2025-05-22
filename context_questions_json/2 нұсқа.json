@@ -1,0 +1,174 @@
+{
+  "title": "2-нұсқа",
+  "description": "Төменде қарапайым пікірлер берілген:\n\nА= {Монитор – ақпаратты қағазға басатын құрылғы}\n\nВ= {Принтер – ақпаратты енгізетін құрылғы}\n\nС= {Процессор – ақпаратты өңдеуші құрылғы}\n\nД= {Тінтуір – ақпаратты сақтау құрылғысы}\n\nЕ= {Сканер – ақпаратты компьютерге көшіріп өткізетін  құрылғы}\n\n Логикалық амалдардың нәтижесін тап.",
+  "context": {
+    "text": "Төменде қарапайым пікірлер берілген:\n\nА= {Монитор – ақпаратты қағазға басатын құрылғы}\n\nВ= {Принтер – ақпаратты енгізетін құрылғы}\n\nС= {Процессор – ақпаратты өңдеуші құрылғы}\n\nД= {Тінтуір – ақпаратты сақтау құрылғысы}\n\nЕ= {Сканер – ақпаратты компьютерге көшіріп өткізетін  құрылғы}\n\n Логикалық амалдардың нәтижесін тап.",
+    "images": []
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "C V Д логикалық амалының нәтижесін көрсет.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "жалған",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "қосу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "көбейту",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "​​​​​​жалған",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 2,
+      "text": "Төмендегі ақиқат кестесіне сәйкес логикалық операция түрін анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "дизъюнкция",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "конъюнкция",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "эквиваленттілік",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "инверсия",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "images": [
+        {
+          "url": "https://contextent.s3.amazonaws.com/images/4853b691-ba52-4d13-ac94-f2e633edebcd.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Төмендегі схемаға сәйкес келетін логикалық өрнекті анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "B ∧ A",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A ∧ B  ∧ A",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A ∨ C ∧ A",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A ∧ B ∨ A",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "images": [{
+        "url": "https://contextent.s3.amazonaws.com/images/3b76ad81-b46b-4bca-adce-5f47a33a73ed.png",
+        "type": "image/png"
+      }]
+    },
+    {
+      "number": 4,
+      "text": "Берілген логикалық өрнектің ақиқат кестесін сызып, алынған нәтижеде неше бір болатынын анықта. ¬(A ∧ B)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": []
+    },
+    {
+      "number": 5,
+      "text": "Төмендегі логикалық схемадан неше жалған мән алынатынын анықта.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "images": [{
+        "url": "https://contextent.s3.amazonaws.com/images/b70c945c-db24-412f-9577-da0f0e9a9801.png",
+        "type": "image/png"
+      }]
+    }
+  ],
+  "total_questions": 5,
+  "multiple_answers_allowed": false,
+  "has_images": true
+}
