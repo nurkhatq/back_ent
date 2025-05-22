@@ -147,6 +147,9 @@ AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazo
 # Определяем окружение
 IS_PRODUCTION = bool(os.environ.get('POSTGRES_HOST') and 'render' in os.environ.get('POSTGRES_HOST', ''))
 AWS_DEFAULT_ACL = 'public-read'
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/"
+DEBUG = False
 
 # Настройки хранилища файлов
 if IS_PRODUCTION and AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY:
