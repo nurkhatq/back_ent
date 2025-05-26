@@ -50,7 +50,7 @@ class DocxToHtmlConverter:
                                 img_src = f"data:image/{img_info['format']};base64,{b64_data}"
                                 image_html += f'<img src="{img_src}" alt="Изображение {img_index+1}" class="material-image" style="max-width: 100%; height: auto; margin: 1rem 0;" />'
             except Exception as e:
-                logger.error(f"Error processing drawing: {e}")
+                logger.error(f"Error  processing drawing: {e}")
         text = run.text
         if not text.strip() and not image_html:
             return ''
