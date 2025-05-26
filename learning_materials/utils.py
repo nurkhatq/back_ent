@@ -1,13 +1,8 @@
-# learning_materials/utils.py
+# learning_materials/utils.py (запасной вариант с base64)
 from docx import Document
 import logging
-from typing import List, Dict, Any
-import os
-import time
+import base64
 import uuid
-from django.conf import settings
-from django.core.files.base import ContentFile
-import shutil
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +14,6 @@ class DocxToHtmlConverter:
         self.image_map = {}
 
     def _style_to_tag(self, style_name: str) -> str:
-        """Convert paragraph style to HTML tag"""
         if style_name is None:
             return 'p'
             
@@ -29,7 +23,6 @@ class DocxToHtmlConverter:
         return 'p'
 
     def _process_run(self, run, material_id=None) -> str:
-        """Process a run and return HTML with formatting"""
         if not hasattr(run, 'text'):
             return ''
             
@@ -39,7 +32,7 @@ class DocxToHtmlConverter:
         if hasattr(run, '_element') and run._element is None:
             return ''
 
-        # Проверяем, есть ли изображение в данном run
+        # Проверяем изображения и сразу встраиваем как base64
         image_html = ''
         if hasattr(run, '_element'):
             try:
@@ -51,8 +44,11 @@ class DocxToHtmlConverter:
                         if embed and embed in self.image_map:
                             img_index = self.image_map[embed]
                             if img_index < len(self.images):
-                                # Создаем плейсхолдер для замены
-                                image_html += f'<img data-image-placeholder="{img_index}" alt="Изображение {img_index+1}" class="material-image" style="max-width: 100%; height: auto; margin: 1rem 0;" />'
+                                img_info = self.images[img_index]
+                                # Создаем base64 изображение сразу
+                                b64_data = base64.b64encode(img_info['image_data']).decode('utf-8')
+                                img_src = f"data:image/{img_info['format']};base64,{b64_data}"
+                                image_html += f'<img src="{img_src}" alt="Изображение {img_index+1}" class="material-image" style="max-width: 100%; height: auto; margin: 1rem 0;" />'
             except Exception as e:
                 logger.error(f"Error processing drawing: {e}")
 
@@ -60,14 +56,14 @@ class DocxToHtmlConverter:
         if not text.strip() and not image_html:
             return ''
 
-        # Экранирование HTML-символов
+        # Экранирование HTML
         text = (text.replace('&', '&amp;')
                     .replace('<', '&lt;')
                     .replace('>', '&gt;')
                     .replace('"', '&quot;')
                     .replace("'", '&#39;'))
 
-        # Добавляем форматирование
+        # Форматирование
         if hasattr(run, 'bold') and hasattr(run, 'italic'):
             if run.bold and run.italic:
                 text = f'<strong><em>{text}</em></strong>'
@@ -81,7 +77,6 @@ class DocxToHtmlConverter:
         return text + image_html
 
     def _convert_paragraph(self, paragraph, material_id=None) -> str:
-        """Convert paragraph to HTML"""
         if not hasattr(paragraph, 'text') or not paragraph.text.strip():
             has_images = False
             if hasattr(paragraph, 'runs'):
@@ -111,7 +106,6 @@ class DocxToHtmlConverter:
         return f'<{tag}>{content}</{tag}>'
 
     def _convert_table(self, table, material_id=None) -> str:
-        """Convert table to HTML"""
         self.has_tables = True
         html = ['<div class="table-wrapper"><table class="border-collapse w-full">']
         
@@ -127,7 +121,6 @@ class DocxToHtmlConverter:
         return ''.join(html)
 
     def _detect_image_format(self, image_data):
-        """Определение формата изображения"""
         if image_data.startswith(b'\x89PNG\r\n\x1a\n'):
             return 'png'
         elif image_data.startswith(b'\xff\xd8\xff'):
@@ -138,7 +131,6 @@ class DocxToHtmlConverter:
             return 'png'
 
     def _extract_images(self, document):
-        """Извлечение изображений из документа"""
         for rel_id, rel in document.part.rels.items():
             if "image" in rel.reltype:
                 try:
@@ -156,41 +148,6 @@ class DocxToHtmlConverter:
                     
                 except Exception as e:
                     logger.error(f"Error extracting image {rel_id}: {str(e)}")
-
-    def _save_images_locally(self, material_id):
-        """Сохранение изображений локально"""
-        saved_images = []
-        
-        # Создаем папку для изображений материалов
-        media_root = settings.MEDIA_ROOT
-        images_dir = os.path.join(media_root, 'material_images')
-        os.makedirs(images_dir, exist_ok=True)
-        
-        for idx, img_info in enumerate(self.images):
-            try:
-                # Создаем уникальное имя файла
-                unique_filename = f"{uuid.uuid4()}.{img_info['format']}"
-                image_path = os.path.join(images_dir, unique_filename)
-                
-                # Сохраняем изображение
-                with open(image_path, 'wb') as f:
-                    f.write(img_info['image_data'])
-                
-                # Создаем URL (относительный)
-                image_url = f'/media/material_images/{unique_filename}'
-                
-                logger.info(f"Image saved: {image_url}")
-                
-                saved_images.append({
-                    'url': image_url,
-                    'caption': f'Изображение {idx+1}',
-                    'order': idx
-                })
-                
-            except Exception as e:
-                logger.error(f"Error saving image {idx}: {str(e)}")
-        
-        return saved_images
 
     def convert(self, docx_path, material_id=None):
         try:
@@ -224,16 +181,8 @@ class DocxToHtmlConverter:
             
             content_html = ''.join(all_elements)
             
-            # Сохраняем изображения локально
+            # Для base64 не нужно сохранять отдельные файлы
             saved_images = []
-            if material_id:
-                saved_images = self._save_images_locally(material_id)
-                
-                # Заменяем плейсхолдеры на реальные URL
-                for idx, img_info in enumerate(saved_images):
-                    placeholder = f'data-image-placeholder="{idx}"'
-                    replacement = f'src="{img_info["url"]}"'
-                    content_html = content_html.replace(placeholder, replacement)
             
             return {
                 'html': content_html,
