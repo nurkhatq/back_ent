@@ -2,15 +2,12 @@
 from docx import Document
 import logging
 from typing import List, Dict, Any
-import base64
-from io import BytesIO
-from PIL import Image
 import os
 import time
 import uuid
 from django.conf import settings
-from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
+import shutil
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +16,7 @@ class DocxToHtmlConverter:
         self.images = []
         self.has_tables = False
         self.has_formulas = False
-        self.image_map = {}  # Соответствие между relationships и индексами изображений
+        self.image_map = {}
 
     def _style_to_tag(self, style_name: str) -> str:
         """Convert paragraph style to HTML tag"""
@@ -27,7 +24,6 @@ class DocxToHtmlConverter:
             return 'p'
             
         if 'heading' in style_name.lower():
-            # Extract number from heading style (e.g., 'Heading 1' -> 'h1')
             level = ''.join(filter(str.isdigit, style_name)) or '2'
             return f'h{level}'
         return 'p'
@@ -49,14 +45,13 @@ class DocxToHtmlConverter:
             try:
                 drawings = run._element.findall('.//w:drawing', run._element.nsmap)
                 for drawing in drawings:
-                    # Ищем blip (изображение)
                     blips = drawing.findall('.//a:blip', {'a': 'http://schemas.openxmlformats.org/drawingml/2006/main'})
                     for blip in blips:
                         embed = blip.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed')
                         if embed and embed in self.image_map:
                             img_index = self.image_map[embed]
                             if img_index < len(self.images):
-                                # Создаем плейсхолдер, который будет заменен после сохранения изображения
+                                # Создаем плейсхолдер для замены
                                 image_html += f'<img data-image-placeholder="{img_index}" alt="Изображение {img_index+1}" class="material-image" style="max-width: 100%; height: auto; margin: 1rem 0;" />'
             except Exception as e:
                 logger.error(f"Error processing drawing: {e}")
@@ -132,89 +127,59 @@ class DocxToHtmlConverter:
         return ''.join(html)
 
     def _detect_image_format(self, image_data):
-        """Более точное определение формата изображения по содержимому"""
+        """Определение формата изображения"""
         if image_data.startswith(b'\x89PNG\r\n\x1a\n'):
             return 'png'
         elif image_data.startswith(b'\xff\xd8\xff'):
             return 'jpeg'
         elif image_data.startswith(b'\x47\x49\x46\x38'):
             return 'gif'
-        elif len(image_data) > 2 and image_data[0:2] == b'\x42\x4d':
-            return 'bmp'
-        elif image_data.startswith(b'\x00\x00\x01\x00'):
-            return 'ico'
-        elif image_data.startswith(b'%PDF'):
-            return 'pdf'
-        elif image_data.startswith(b'<svg') or b'<svg' in image_data[:100]:
-            return 'svg'
         else:
-            logger.info(f"Unknown image format, first bytes: {':'.join(f'{b:02x}' for b in image_data[:20])}")
             return 'png'
 
     def _extract_images(self, document):
-        """Улучшенное извлечение изображений с дополнительным логированием"""
+        """Извлечение изображений из документа"""
         for rel_id, rel in document.part.rels.items():
             if "image" in rel.reltype:
                 try:
-                    logger.info(f"Processing image relationship: {rel_id}, type: {rel.reltype}")
                     image_data = rel.target_part.blob
-                    
-                    # Логирование информации об изображении
-                    logger.info(f"Image size: {len(image_data)} bytes")
-                    
-                    # Определяем формат изображения
                     image_format = self._detect_image_format(image_data)
-                    logger.info(f"Detected image format: {image_format}")
                     
                     img_index = len(self.images)
                     self.images.append({
                         'image_data': image_data,
                         'format': image_format,
                         'rel_id': rel_id,
-                        'rel_type': rel.reltype
                     })
                     
-                    # Сохраняем соответствие между rId и индексом изображения
                     self.image_map[rel_id] = img_index
                     
                 except Exception as e:
-                    logger.error(f"Error extracting image {rel_id}: {str(e)}", exc_info=True)
+                    logger.error(f"Error extracting image {rel_id}: {str(e)}")
 
-    def _save_images_to_storage(self, material_id):
-        """Сохранение изображений в хранилище (локально или на сервере)"""
+    def _save_images_locally(self, material_id):
+        """Сохранение изображений локально"""
         saved_images = []
+        
+        # Создаем папку для изображений материалов
+        media_root = settings.MEDIA_ROOT
+        images_dir = os.path.join(media_root, 'material_images')
+        os.makedirs(images_dir, exist_ok=True)
+        
         for idx, img_info in enumerate(self.images):
             try:
                 # Создаем уникальное имя файла
                 unique_filename = f"{uuid.uuid4()}.{img_info['format']}"
-                image_path = f'material_images/{unique_filename}'
-                
-                logger.info(f"Saving image {idx}: {image_path}")
+                image_path = os.path.join(images_dir, unique_filename)
                 
                 # Сохраняем изображение
-                img_data = img_info['image_data']
-                if isinstance(img_data, str):
-                    img_data = img_data.encode('utf-8')
+                with open(image_path, 'wb') as f:
+                    f.write(img_info['image_data'])
                 
-                # Сохраняем файл
-                saved_path = default_storage.save(image_path, ContentFile(img_data))
-                image_url = default_storage.url(saved_path)
+                # Создаем URL (относительный)
+                image_url = f'/media/material_images/{unique_filename}'
                 
-                # Исправляем URL для работы на любом домене
-                from django.conf import settings
-                import os
-                
-                # Если URL относительный, не добавляем домен
-                if not image_url.startswith('http'):
-                    # Для локальной разработки и продакшена
-                    # Django автоматически обработает относительные URLs
-                    pass
-                else:
-                    # Если URL абсолютный, но с localhost, исправляем на текущий домен
-                    if 'localhost:8000' in image_url:
-                        image_url = image_url.replace('http://localhost:8000', '')
-                
-                logger.info(f"Image saved successfully: {image_url}")
+                logger.info(f"Image saved: {image_url}")
                 
                 saved_images.append({
                     'url': image_url,
@@ -223,7 +188,7 @@ class DocxToHtmlConverter:
                 })
                 
             except Exception as e:
-                logger.error(f"Error saving image {idx}: {str(e)}", exc_info=True)
+                logger.error(f"Error saving image {idx}: {str(e)}")
         
         return saved_images
 
@@ -232,18 +197,16 @@ class DocxToHtmlConverter:
             logger.info(f"Converting DOCX: {docx_path}")
             doc = Document(docx_path)
             
-            # Extract images first and build the mapping
+            # Извлекаем изображения
             self._extract_images(doc)
             logger.info(f"Extracted {len(self.images)} images")
             
-            # Process content - сохраняя порядок элементов
+            # Обрабатываем контент
             all_elements = []
             
-            # Проходим по всем элементам тела документа в порядке их следования
             try:
                 for element in doc.element.body:
                     if element.tag.endswith('p'):
-                        # Найдем соответствующий параграф
                         for paragraph in doc.paragraphs:
                             if paragraph._element == element:
                                 para_html = self._convert_paragraph(paragraph, material_id)
@@ -251,27 +214,22 @@ class DocxToHtmlConverter:
                                     all_elements.append(para_html)
                                 break
                     elif element.tag.endswith('tbl'):
-                        # Найдем соответствующую таблицу
                         for table in doc.tables:
                             if table._tbl == element:
                                 table_html = self._convert_table(table, material_id)
                                 all_elements.append(table_html)
                                 break
             except Exception as e:
-                logger.error(f"Error processing document elements: {e}", exc_info=True)
+                logger.error(f"Error processing document elements: {e}")
             
-            # Объединяем все HTML
             content_html = ''.join(all_elements)
-            logger.info(f"Generated HTML length: {len(content_html)} chars")
             
-            # Если есть ID материала, сохраняем изображения
+            # Сохраняем изображения локально
             saved_images = []
             if material_id:
-                # Сохраняем изображения
-                saved_images = self._save_images_to_storage(material_id)
-                logger.info(f"Saved {len(saved_images)} images")
+                saved_images = self._save_images_locally(material_id)
                 
-                # Заменяем плейсхолдеры на реальные URL изображений
+                # Заменяем плейсхолдеры на реальные URL
                 for idx, img_info in enumerate(saved_images):
                     placeholder = f'data-image-placeholder="{idx}"'
                     replacement = f'src="{img_info["url"]}"'
